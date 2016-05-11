@@ -1,8 +1,8 @@
-<?php 
+<?php
 $t9 = $_SERVER['DOCUMENT_ROOT'];
 $moof="$t9/fiplog.log";
-$logline = date("Y-m-d H:i:s") . "\t" . $_SERVER['REMOTE_ADDR'] . "\t" . "FRANK" . "\t" .  $_SERVER['HTTP_USER_AGENT'] . "\r\n"; 
-$mooq = file_put_contents($moof, $logline, FILE_APPEND); 
+$logline = date("Y-m-d H:i:s") . "\t" . $_SERVER['REMOTE_ADDR'] . "\t" . "FRANK" . "\t" .  $_SERVER['HTTP_USER_AGENT'] . "\r\n";
+$mooq = file_put_contents($moof, $logline, FILE_APPEND);
 ?>
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Frank Sikernitsky</title>
 <meta name="description" content="A fun and unique look at the major products and projects of noted engineer and entrepreneur Frank Sikernitsky.">
@@ -21,7 +21,7 @@ else window.addEventListener('load', cb);
 <link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <link rel="icon" type="image/png" href="ficon16.png" sizes="16x16"><link rel="icon" type="image/png" href="ficon32.png" sizes="32x32">
 <script type="text/javascript">
   WebFontConfig = {
-    google: { families: [ 'Open+Sans:300,400,600,700:latin' ] }
+    google: { families: [ 'Lato:400,700,300:latin','Open+Sans:300,400,600,700:latin' ] }
   };
   (function() {
     var wf = document.createElement('script');
@@ -43,15 +43,15 @@ else window.addEventListener('load', cb);
 </script>
 <!--[if IE]><script src="jquery/js/excanvas.js"></script><![endif]-->
 <style>
-body,html{min-height:100%;height:100%}#itis,.bigbox,.topbutton,.topribbon{position:absolute}#drop-menu li a,#drop-menu li a hover,.cardlink{text-decoration:none}body{background:url(bg.jpg) center center no-repeat fixed #222;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;font-family:'Open Sans','Lucida Grande',Helvetica,Arial}strong{font-weight:700}
+body,html{min-height:100%;height:100%}#itis,.bigbox,.topbutton,.topribbon{position:absolute}#drop-menu li a,#drop-menu li a hover,.cardlink{text-decoration:none}body{background:url(bg.jpg) center center no-repeat fixed #222;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;font-family:'Lato','Open Sans','Lucida Grande',Helvetica,Arial}strong{font-weight:700}
 .medstrong{font-weight:600}p{margin:0;padding:5px}
 .bigbox{display:block;top:0;left:0;width:100%;height:100%;margin:0}
 .divact1,.divact2,.divact3,.divact4{width:100px;float:left;text-align:center}
 .menuitem{font-size:14px}
 .aoncard,.aoncard a:link,.aoncard a:visited{color:#111!important;text-decoration:none}
 .aoncard a:hover{color:#444!important}
-.topribbon{padding:14px;color:#FFF;border:0;height:57px;font-family:'Open Sans',Lucida Grande,Helvetica;font-size:10pt;text-align:center}
-.bodyprose,.ui-widget-content{font-family:'Open Sans',Lucida Grande,Helvetica,sans-serif}
+.topribbon{padding:14px;color:#FFF;border:0;height:57px;font-family:'Lato','Open Sans',Lucida Grande,Helvetica;font-size:10pt;text-align:center}
+.bodyprose,.ui-widget-content{font-family:'Lato','Open Sans',Lucida Grande,Helvetica,sans-serif}
 .divinnerbox{-moz-border-radius:8px;-webkit-border-radius:8px;-khtml-border-radius:8px;border-radius:8px}
 .ui-dialog{border:0;-moz-box-shadow:1px 1px 6px 2px #222;-webkit-box-shadow:1px 1px 6px 2px #222;box-shadow:1px 1px 6px 2px #222}
 .dragshadow{border:0;-moz-box-shadow:1px 1px 6px 2px #222;-webkit-box-shadow:1px 1px 6px 2px #222;box-shadow:1px 1px 6px 2px #222;-webkit-appearance:none;border-radius:1px}
@@ -126,7 +126,7 @@ display:inline;text-align:center}
 <div id="actbox" title="about frank sikernitsky" style="display:none;background-color:none !important; background-image:url(bg85.png) !important;">
 <div class="divinnerbox"><?php include('xtac.html'); ?></div></div>
 <div id="set">
-<div id="drag-am" class="ui-widget-content dragshadow front-am"><span id="goback-am"><img src="flipx.png" hspace=4 vspace=4></span></div> 
+<div id="drag-am" class="ui-widget-content dragshadow front-am"><span id="goback-am"><img src="flipx.png" hspace=4 vspace=4></span></div>
 <div id="drag-tj" class="ui-widget-content dragshadow front-tj"><span id="goback-tj"><img src=flip.png hspace=4 vspace=4></span></div>
 <div id="drag-tw" class="ui-widget-content dragshadow front-tw"><span id="goback-tw"><img src=flip.png hspace=4 vspace=4></span></div>
 <div id="drag-io" class="ui-widget-content dragshadow front-io"><span id="goback-io"><img src=flipx.png hspace=4 vspace=4></span></div>
@@ -168,7 +168,7 @@ $( "#drag-ia" ).draggable({ opacity: 0.35 });
 $( "#drag-kb" ).draggable({ opacity: 0.35 });
 $( "#set div" ).draggable({ stack: "#set div" });
 
-$( "#dialog" ).dialog({ 
+$( "#dialog" ).dialog({
 resizable: false,
 draggable: false,
 autoOpen: false,
@@ -176,31 +176,31 @@ width:293,
 height: 271,
 show: { effect: 'fade', duration: 500 } ,
 hide: { effect: 'fade', duration: 500 } ,
-position: { 
+position: {
 my: 'right top',
 at: 'right top',
 of: $('#menubtn'),
 offset: '-20 5'
 } });
 
-$( "#actbox" ).dialog({ 
+$( "#actbox" ).dialog({
 resizable: false,
 draggable: true,
 autoOpen: false,
 width:450,
 height: 220,
 show: { effect: 'fade', duration: 500 } ,
-hide: { effect: 'fade', duration: 500 } 
+hide: { effect: 'fade', duration: 500 }
 });
 
-$( "#biobox" ).dialog({ 
+$( "#biobox" ).dialog({
 resizable: false,
 draggable: true,
 autoOpen: false,
 width:'90%',
 height: 'auto',
 show: { effect: 'fade', duration: 500 } ,
-hide: { effect: 'fade', duration: 500 } 
+hide: { effect: 'fade', duration: 500 }
 });
 });
 
@@ -303,20 +303,20 @@ left: Math.floor((Math.random()*420)+260)
 $("#drag-io").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
-}, { duration: 400, queue: false });   
+}, { duration: 400, queue: false });
 $("#drag-ia").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
-}, { duration: 400, queue: false });   
+}, { duration: 400, queue: false });
 $("#drag-kb").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
-}, { duration: 400, queue: false });   
+}, { duration: 400, queue: false });
 };
 
 $(function() {
 $(document).on('click', '#goback-ff', function(){
-ga('send', 'event', 'cardflip', 'FitFiler');	
+ga('send', 'event', 'cardflip', 'FitFiler');
 $("#drag-ff").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-ff><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>FitFiler</span><p class=prose><strong>Advisor</strong><br>FitFiler is a family of mobile technologies that unites health data tracking with group-based social tools to yield a next generation approach to managing wellness.</span><p class=prose><strong>Dates</strong> 2011 - Current<br><strong>Status</strong> Pilot<br><a href=http://www.fitfiler.com class=cardlink target=_blank>www.fitfiler.com</a>',
 onStart: function () {$("#drag-ff").removeClass("dragshadow"); $("#drag-ff").removeClass("front-ff");},
@@ -333,7 +333,7 @@ $(function() {
 $(document).on('click' ,'#gofront-ff', function(){
 $("#drag-ff").flippy({ direction:'LEFT', light:0,  color_target:'#336633', content:'<span id=goback-ff><img src=flip.png  hspace=4 vspace=4></span>',
 onStart: function () {$("#drag-ff").removeClass("dragshadow"); $("#drag-ff").removeClass("back-ff");},
-onFinish: function () {$("#drag-ff").addClass("front-ff"); $("#drag-ff").addClass("dragshadow");}		
+onFinish: function () {$("#drag-ff").addClass("front-ff"); $("#drag-ff").addClass("dragshadow");}
 }); }); });
 $(function() {
 $(document).on('click', '#goback-id', function(){
@@ -342,7 +342,7 @@ $("#drag-id").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-id><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>IdeaDev</span><p class=prose><strong>Managing Director</strong><br><br>Based in NYC, IdeaDev was a software design agency. Major clients included Pfizer, GE, AAA, and Citibank.  </span><p class=prose><strong>Dates</strong> 1999 - 2007<br><strong>Status</strong> Retired<br>',
 onStart: function () {$("#drag-id").removeClass("dragshadow"); $("#drag-id").removeClass("front-id");},
 onFinish: function () {$("#drag-id").addClass("back-id");$("#drag-id").addClass("dragshadow");}
-}); }); });	
+}); }); });
 $(function() {
 $(document).on('click' ,'#gomid-id', function(){
 $("#drag-id").flippy({ direction:'TOP', light:0, content:'<span id=gofront-id><img src=flip.png  hspace=4 vspace=4></span><span class=ttlspc>IdeaDev</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-win.png><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><img src=sq-startup.png><img src=sq-lab.png><span class=invl><strong>Fortune 500 Clients</strong>: 6</span></p>',
@@ -353,11 +353,11 @@ $(function() {
 $(document).on('click' ,'#gofront-id', function(){
 $("#drag-id").flippy({ direction:'LEFT', light:0, color_target:'#6666cc', content:'<span id=goback-id><img src=flip.png  hspace=4 vspace=4></span>',
 onStart: function () {$("#drag-id").removeClass("dragshadow"); $("#drag-id").removeClass("back-id");},
-onFinish: function () {$("#drag-id").addClass("front-id"); $("#drag-id").addClass("dragshadow");}		
+onFinish: function () {$("#drag-id").addClass("front-id"); $("#drag-id").addClass("dragshadow");}
 }); }); });
 $(function() {
 $(document).on('click', '#goback-hd', function(){
-ga('send', 'event', 'cardflip', 'HeresDinner');	
+ga('send', 'event', 'cardflip', 'HeresDinner');
 $("#drag-hd").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-hd><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>HeresDinner</span><p class=prose><strong>Investor</strong><br>HeresDinner is an outsourced food delivery service, combining online ordering with boots on the ground. Piloted for two years in Princeton, NJ, HD is planning re-release in the Northeast with a new emphasis on mobility. </span><p class=prose><strong>Dates</strong> 2005 - Current<br><strong>Status</strong> Post-Pilot<br></p>',
 onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").removeClass("front-hd");},
@@ -374,11 +374,11 @@ $(function() {
 $(document).on('click' ,'#gofront-hd', function(){
 $("#drag-hd").flippy({ direction:'LEFT', light:0, content:'<span id=goback-hd><img src=flip.png  hspace=4 vspace=4></span>',
 onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").removeClass("back-hd");},
-onFinish: function () {$("#drag-hd").addClass("front-hd"); $("#drag-hd").addClass("dragshadow");}		
-}); }); });	
+onFinish: function () {$("#drag-hd").addClass("front-hd"); $("#drag-hd").addClass("dragshadow");}
+}); }); });
 $(function() {
 $(document).on('click', '#goback-sp', function(){
-ga('send', 'event', 'cardflip', 'Author');	
+ga('send', 'event', 'cardflip', 'Author');
 $("#drag-sp").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-sp><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Author</span><br><p class=prose><strong><a href=http://supplysidesocialmedia.com target=_blank class=aoncard>Supply Side Social Media</a></strong><br>TExplores the economics of social media, proposing alternate ways to generate revenue.<i> Q4 2016</i><br><strong>The Post-PC World Survival Guide</strong><br>The book explores 50 years of computing, and how developments have changed the way services are designed and consumed. <i>Q3 2016</i>',
 onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("front-sp");},
@@ -390,11 +390,11 @@ $(document).on('click' ,'#gofront-sp', function(){
 $("#drag-sp").flippy({ direction:'LEFT', light:0, content:'<span id=goback-sp><img src=flip.png  hspace=4 vspace=4></span>',
 onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("back-sp");},
 onFinish: function () {$("#drag-sp").addClass("front-sp"); $("#drag-sp").addClass("dragshadow");
-}		
-}); }); });	
+}
+}); }); });
 $(function() {
 $(document).on('click', '#goback-tw', function(){
-ga('send', 'event', 'cardflip', 'Window');	
+ga('send', 'event', 'cardflip', 'Window');
 $("#drag-tw").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-tw><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>The Window</span><p class=prose><strong>Creator, Editor</strong><br>The Window is a Philosophy resource created in 1995 while I was a student at Trinity College. In the intervening 20 years, it is now widely cited as a primary source on the Web. </span><p class=prose><strong>Dates</strong> 1995 - Current<br><strong>Status</strong> Online<br><a href=http://www.trincoll.edu/depts/phil/philo/index.html class=cardlink target=_blank>The Window</a> ',
 onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").removeClass("front-tw");},
@@ -411,11 +411,11 @@ $(function() {
 $(document).on('click' ,'#gofront-tw', function(){
 $("#drag-tw").flippy({ direction:'LEFT', light:0, color_target:'#3366cc', content:'<span id=goback-tw><img src=flip.png  hspace=4 vspace=4></span>',
 onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").removeClass("back-tw");},
-onFinish: function () {$("#drag-tw").addClass("front-tw"); $("#drag-tw").addClass("dragshadow");}		
-}); }); });	
+onFinish: function () {$("#drag-tw").addClass("front-tw"); $("#drag-tw").addClass("dragshadow");}
+}); }); });
 $(function() {
 $(document).on('click', '#goback-io', function(){
-ga('send', 'event', 'cardflip', 'IntranetOffice');	
+ga('send', 'event', 'cardflip', 'IntranetOffice');
 $("#drag-io").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-io><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>IntranetOffice</span><p class=prose><strong>CTO, Lead Architect, Evangelist</strong><br>I/O was a collaboration and communication platform I created in 1997, which eventually spawned a family of knowledge-management and CRM products for the Fortune 500. </p><p class=prose><strong>Dates</strong> 1997 - 2004<br><strong>Status</strong> Retired<br>',
 onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("front-io");},
@@ -436,7 +436,7 @@ onFinish: function () {$("#drag-io").addClass("front-io"); $("#drag-io").addClas
 }); }); });
 $(function() {
 $(document).on('click', '#goback-hz', function(){
-ga('send', 'event', 'cardflip', 'HobokenZoo');	
+ga('send', 'event', 'cardflip', 'HobokenZoo');
 $("#drag-hz").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-hz><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Hoboken Zoo</span><p class=prose><strong>Director</strong><br>The Zoo is about kids, imagination, technology, engineering, and the community.</p> <p class=prose><strong>Dates</strong> 2015 - Current<br><strong>Status</strong> Building Curriculum<br>',
 onStart: function () {$("#drag-hz").removeClass("dragshadow"); $("#drag-hz").removeClass("front-hz");},
@@ -455,10 +455,10 @@ $("#drag-hz").flippy({ direction:'LEFT', light:0, content:'<span id=goback-hz><i
 onStart: function () {$("#drag-hz").removeClass("dragshadow"); $("#drag-hz").removeClass("back-hz");},
 onFinish: function () {$("#drag-hz").addClass("front-hz"); $("#drag-hz").addClass("dragshadow");
 }
-}); }); });	
+}); }); });
 $(function() {
 $(document).on('click', '#goback-gv', function(){
-ga('send', 'event', 'cardflip', 'BoxQueue');	
+ga('send', 'event', 'cardflip', 'BoxQueue');
 $("#drag-gv").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-gv><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Boxqueue</span><p class=prose><strong>Advisor</strong><br><br>Boxqueue is a startup focusing on rapid provisioning and intra-infra orchestration in the cloud space. </p><p class=prose><strong>Dates</strong> 2013 - Current<br><strong>Status</strong> Development<br><a href=http://www.boxqueue.com class=cardlink target=_blank>www.boxqueue.com</a>',
 onStart: function () {$("#drag-gv").removeClass("dragshadow"); $("#drag-gv").removeClass("front-gv");},
@@ -473,7 +473,7 @@ onFinish: function () {$("#drag-gv").addClass("front-gv"); $("#drag-gv").addClas
 }); }); });
 $(function() {
 $(document).on('click', '#goback-ub', function(){
-ga('send', 'event', 'cardflip', 'fuxnux');	
+ga('send', 'event', 'cardflip', 'fuxnux');
 $("#drag-ub").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-ub><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Fuxnux</span><p class=prose><strong>Cartoonist</strong><br>I always wanted to draw a cartoon strip, but could never focus enough on the art. Now the Internet has lowered the artistic bar so *impossibly* low, I think I can pull it off now. </span><p class=prose><strong>Dates</strong> 2016 sometime<br>',
 onStart: function () {$("#drag-ub").removeClass("dragshadow"); $("#drag-ub").removeClass("front-ub");},
@@ -495,7 +495,7 @@ onFinish: function () {$("#drag-ub").addClass("front-ub"); $("#drag-ub").addClas
 }); }); });
 $(function() {
 $(document).on('click', '#goback-ww', function(){
-ga('send', 'event', 'cardflip', 'Distechnical');	
+ga('send', 'event', 'cardflip', 'Distechnical');
 $("#drag-ww").flippy({ direction:'LEFT', color_target : '#CCCCCC', light:0,
 content:'<span id=gofront-ww><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Distechnical</span><p class=prose><strong>Blog</strong><br>My peronal blog, named Distechnical, covers technology from the point of view of of long-term transformation, disruption, and change as a constant.  </span><p class=prose><strong>Dates</strong> 2005 - Current<br><strong>Status</strong> In Production<br><a href=http://www.distechnical.com class=cardlink target=_blank>www.distechnical.com</a>',
 onStart: function () {$("#drag-ww").removeClass("dragshadow"); $("#drag-ww").removeClass("front-ww");},
@@ -517,7 +517,7 @@ onFinish: function () {$("#drag-ww").addClass("front-ww"); $("#drag-ww").addClas
 }); }); });
 $(function() {
 $(document).on('click', '#goback-gt', function(){
-ga('send', 'event', 'cardflip', 'rootcloud');	
+ga('send', 'event', 'cardflip', 'rootcloud');
 $("#drag-gt").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-gt><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>root.cloud</span><p class=prose><strong>Designer</strong><br>This is a bedrock IoT play. Mega stealth. Stay tuned.  </span><p class=prose><strong>Dates</strong> 2016 - Current<br><strong>Status</strong> Design<br>',
 onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("front-gt");},
@@ -561,7 +561,7 @@ onFinish: function () {$("#drag-am").addClass("front-am"); $("#drag-am").addClas
 }); }); });
 $(function() {
 $(document).on('click', '#goback-tj', function(){
-ga('send', 'event', 'cardflip', 'TrincollJournal');	
+ga('send', 'event', 'cardflip', 'TrincollJournal');
 $("#drag-tj").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-tj><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Trincoll Journal</span><p class=prose><strong>Editor-In-Chief</strong><br>TJ was the first regularly-published, exclusively-online Web magazine, starting at Trinity College in 1993 on NCSA Mosaic. Yes, Mosaic.  </span><p class=prose><strong>Dates</strong> 1993-1996<br><strong>Status</strong> Archived<br>',
 onStart: function () {$("#drag-tj").removeClass("dragshadow"); $("#drag-tj").removeClass("front-tj");},
@@ -580,10 +580,10 @@ $("#drag-tj").flippy({ direction:'LEFT', light:0, content:'<span id=goback-tj><i
 onStart: function () {$("#drag-tj").removeClass("dragshadow"); $("#drag-tj").removeClass("back-tj");},
 onFinish: function () {$("#drag-tj").addClass("front-tj"); $("#drag-tj").addClass("dragshadow");
 }
-}); }); });	
+}); }); });
 $(function() {
 $(document).on('click', '#goback-kb', function(){
-ga('send', 'event', 'cardflip', 'Klipbrd');	
+ga('send', 'event', 'cardflip', 'Klipbrd');
 $("#drag-kb").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-kb><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>klipbrd.com</span><p class=prose><strong>Advisor</strong><br>Klipbrd is a tablet-based point-of-sale sign-in service available for a number of vertical markets.</span><p class=prose><strong>Dates</strong> 2014<br><strong>Status</strong> Active<br>',
 onStart: function () {$("#drag-kb").removeClass("dragshadow"); $("#drag-kb").removeClass("front-kb");},
@@ -605,7 +605,7 @@ onFinish: function () {$("#drag-kb").addClass("front-kb"); $("#drag-kb").addClas
 }); }); });
 $(function() {
 $(document).on('click', '#goback-ia', function(){
-ga('send', 'event', 'cardflip', 'iasqu');	
+ga('send', 'event', 'cardflip', 'iasqu');
 $("#drag-ia").flippy({ direction:'LEFT', light:0,
 content:'<span id=gofront-ia><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>iasqu</span><p class=prose><strong>Advisor</strong><br>Publish smart questions that work on any technology, live, from phones to TVs. Available as an app, site, service and API.</span><p class=prose><strong>Dates</strong> 2014<br><strong>Status</strong> Active<br><a href=http://www.iasqu.com class=cardlink target=_blank>www.iasqu.com</a>',
 onStart: function () {$("#drag-ia").removeClass("dragshadow"); $("#drag-ia").removeClass("front-ia");},
@@ -624,8 +624,7 @@ $("#drag-ia").flippy({ direction:'LEFT', light:0, content:'<span id=goback-ia><i
 onStart: function () {$("#drag-ia").removeClass("dragshadow"); $("#drag-ia").removeClass("back-ia");},
 onFinish: function () {$("#drag-ia").addClass("front-ia"); $("#drag-ia").addClass("dragshadow");
 }
-}); }); });	
+}); }); });
 </script>
     </body>
 </html>
-
