@@ -6,7 +6,7 @@ $mooq = file_put_contents($moof, $logline, FILE_APPEND);
 ?>
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Frank Sikernitsky</title>
 <meta name="description" content="A fun and unique look at the major products and projects of noted engineer and entrepreneur Frank Sikernitsky.">
-<meta name="apple-mobile-web-app-capable" content="yes" /><meta name=viewport content="width=device-width,shrink-to-fit=no">
+<meta name="apple-mobile-web-app-capable" content="yes"  /><meta name=viewport content="width=device-width,shrink-to-fit=no">
 <script>
 var cb = function() {
 var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -380,7 +380,7 @@ $(function() {
 $(document).on('click', '#goback-sp', function(){
 ga('send', 'event', 'cardflip', 'Author');
 $("#drag-sp").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-sp><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Author</span><br><p class=prose><strong><a href=http://supplysidesocialmedia.com target=_blank class=aoncard>Supply Side Social Media</a></strong><br>TExplores the economics of social media, proposing alternate ways to generate revenue.<i> Q4 2016</i><br><strong>The Post-PC World Survival Guide</strong><br>The book explores 50 years of computing, and how developments have changed the way services are designed and consumed. <i>Q3 2016</i>',
+content:'<span id=gofront-sp><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Author</span><br><p class=prose><strong><a href=http://supplysidesocialmedia.com target=_blank class=aoncard>Supply Side Social Media</a></strong><br>Explores the economics of social media, proposing alternate ways to generate revenue.<i> Q4 2016</i><br><strong>The Post-PC World Survival Guide</strong><br>The book explores 50 years of computing, and how developments have changed the way services are designed and consumed. <i>Q3 2016</i>',
 onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("front-sp");},
 onFinish: function () {$("#drag-sp").addClass("back-sp");$("#drag-sp").addClass("dragshadow");
 }
