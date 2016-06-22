@@ -23,9 +23,6 @@ document.write('<script language="javascript" type="text/javascript" src="http:/
     < div  class="header-area">
       <h1><a class="product-logo" href="http://www.parallels.com/products/panel/intro" title="Parallels Plesk Panel">Parallels Plesk Panel</a></h1>
       <span class="header-text">
-
-
-
         <script type="text/javascript">
         //<![CDATA[
         if (window.product_copyrights) {
@@ -34,7 +31,7 @@ document.write('<script language="javascript" type="text/javascript" src="http:/
         //]]>
 
 
-        
+
         </script>
       </span>
     </ div >
