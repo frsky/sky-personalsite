@@ -14,15 +14,15 @@ $mooq = file_put_contents($moof, $logline, FILE_APPEND);
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name=viewport content="width=device-width,shrink-to-fit=no">
 <script>
-    let cb = function() {
-        let l = document.createElement('link');
+    var  cb = function() {
+        var  l = document.createElement('link');
         l.rel = 'stylesheet';
         l.href = 'jquery-ui-1.8.20.custom.min.css';
-        let h = document.getElementsByTagName('head')[0];
+        var  h = document.getElementsByTagName('head')[0];
         h.parentNode.insertBefore(l, h);
     };
 
-    let raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    var  raf = requestAnimationFrame || mozRequestAnimationFrame ||
         webkitRequestAnimationFrame || msRequestAnimationFrame;
     if (raf) raf(cb);
     else window.addEventListener('load', cb);
@@ -40,11 +40,11 @@ $mooq = file_put_contents($moof, $logline, FILE_APPEND);
         }
     };
     (function() {
-        let wf = document.createElement('script');
+        var  wf = document.createElement('script');
         wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
         wf.type = 'text/javascript';
         wf.async = 'true';
-        let s = document.getElementsByTagName('script')[0];
+        var  s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(wf, s);
     })();
 </script>
@@ -1873,7 +1873,7 @@ $mooq = file_put_contents($moof, $logline, FILE_APPEND);
             $("#drag-kb").flippy({
                 direction: 'LEFT',
                 light: 0,
-                content: '<span id=gofront-kb><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>klipbrd.com</span><p class=prose><strong>Advisor</strong><br>Klipbrd is a tablet-based point-of-sale sign-in service available for a number of vertical markets.</span><p class=prose><strong>Dates</strong> 2014<br><strong>Status</strong> Active<br>',
+                content: '<span id=gofront-kb><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>klipbrd.com</span><p class=prose><strong>Advisor</strong><br>Klipbrd is a tabvar -based point-of-sale sign-in service available for a number of vertical markets.</span><p class=prose><strong>Dates</strong> 2014<br><strong>Status</strong> Active<br>',
                 onStart: function() {
                     $("#drag-kb").removeClass("dragshadow");
                     $("#drag-kb").removeClass("front-kb");
