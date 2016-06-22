@@ -13,7 +13,10 @@
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 <script src="jquery/js/jquery-1.7.2.min.js"></script>
+
 <script src="jquery/js/jquery-ui-1.8.20.custom.min.js"></script>
+
+
 <script src="jquery/js/jquery.ui.touch-punch.min.js"></script>
 <script src="jquery/js/jquery.flippy.min.js"></script>
 	<style>
