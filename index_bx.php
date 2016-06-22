@@ -1,9 +1,8 @@
 <?php
-$t9 = $_SERVER['DOCUMENT_ROOT'];
-$moof="$t9/fiplog.log";
+$t9 = $_SERVER['DOCUMENT_ROOT'];$moof="$t9/fiplog.log";
 $logline = date("Y-m-d H:i:s") . "\t" . $_SERVER['REMOTE_ADDR'] . "\t" . "FRANK" . "\t" .  $_SERVER['HTTP_USER_AGENT'] . "\r\n";
 $mooq = file_put_contents($moof, $logline, FILE_APPEND);
-?>   
+?>
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Frank Sikernitsky</title>
 <meta name = "description" content="A fun and unique look at the major products and projects of noted engineer and entrepreneur Frank Sikernitsky.">
 <meta name = "apple-mobile-web-app-capable"  content="yes"  /><meta  name=viewport content="width=device-width,shrink-to-fit=no">
@@ -13,13 +12,11 @@ var l = document.createElement('link'); l.rel = 'stylesheet';
 l.href = 'jquery-ui-1.8.20.custom.min.css';
 var h = document.getElementsByTagName('head')[0];  h.parentNode.insertBefore(l, h);
 };
-
 var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(cb);
 else window.addEventListener('load', cb);
-</script>
-<link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <link rel="icon" type="image/png" href="ficon16.png" sizes="16x16"><link rel="icon" type="image/png" href="ficon32.png" sizes="32x32">
+</script><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <link rel="icon" type="image/png" href="ficon16.png" sizes="16x16"><link rel="icon" type="image/png" href="ficon32.png" sizes="32x32">
 <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Lato:400,700,300:latin','Open+Sans:300,400,600,700:latin' ] }
