@@ -3,32 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<title>frank.sikernitsky.com</title>
-	
-<meta name="apple-mobile-web-app-capable" content="yes" /> 
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name = "viewport" content = "width = 980px"/>
 
+
+
+ 
 <link rel="stylesheet" href="jquery/css/custom-theme/jquery-ui-1.8.20.custom.css" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 <script src="jquery/js/jquery-1.7.2.min.js"></script>
 <script src="jquery/js/jquery-ui-1.8.20.custom.min.js"></script>
 <script src="jquery/js/jquery.ui.touch-punch.min.js"></script>
-<script src="jquery/js/jquery.flippy.min.js"></script>	
+<script src="jquery/js/jquery.flippy.min.js"></script>
 
 <!--[if IE]><script src="jquery/js/excanvas.js"></script><![endif]-->
 
 	<style>
-		
-		
+
+
 body {
 	height:100%;
 	width:100%;
 	background:#666666 url('bg.jpg') no-repeat left top;
 	font-family: 'Open Sans', 'Lucida Grande', Helvetica, Arial;
 	}
-	
+
 .bigbox {
 	display:block;
   position:absolute;
@@ -39,7 +42,7 @@ body {
 	height:100%;
 
 	}
-	
+
 	.menuitem
 	{font-size:14px;}
 
@@ -54,23 +57,23 @@ body {
 	font-size: 10pt;
 	text-align: center;
 	}
-	
+
 	.divinnerbox
-	{ -moz-border-radius: 8px; 
-		-webkit-border-radius: 8px; 
-		-khtml-border-radius: 8px; 
-		border-radius: 8px; 
+	{ -moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-khtml-border-radius: 8px;
+		border-radius: 8px;
 }
-	
+
 	.ui-dialog {
-	border:0; 
+	border:0;
   -moz-box-shadow:    2px 2px 9px 3px #222;
   -webkit-box-shadow: 2px 2px 9px 3px #222;
   box-shadow:         2px 3px 9px 3px #222;
 }
 
 	.dragshadow {
-	border:0; 
+	border:0;
   -moz-box-shadow:    2px 2px 9px 3px #222;
   -webkit-box-shadow: 2px 2px 9px 3px #222;
   box-shadow:         2px 3px 9px 3px #222;
@@ -88,7 +91,7 @@ outline: none;
   -moz-outline-style: none;}
 
 .bodyprose {
-	
+
 	color:#FFFFFF;
 	font-family: 'Open Sans', Lucida Grande, Helvetica, sans-serif;
 	font-size: 9pt;
@@ -134,17 +137,17 @@ color:#444;
 
 .divact2 {
 	text-align:center;width:100px;float:left;
-	
+
 }
 
 .divact3 {
 	text-align:center;width:100px;float:left;padding-top:16px;
-	
+
 }
 
 .divact4 {
 	text-align:center;width:100px;float:left;padding-top:16px;
-	
+
 }
 
 .actb { padding-top:6px;}
@@ -154,7 +157,7 @@ color:#444;
 	vertical-align:top;
 	padding-top:4px;
 }
-	
+
 	.boxprose {
 	font-size:10pt;
 	color:#EEE;
@@ -187,7 +190,7 @@ padding-right:18px;
 .topicon {
 height:42px;
 width:70px;
-background-image:url('topicons.png'); 
+background-image:url('topicons.png');
 
 }
 
@@ -201,7 +204,7 @@ background-image:url('topicons.png');
 
 
 
-	
+
 .front-ff { border:0; background:#222 url('ff.png') no-repeat left top !important; color:#fff !important; }
 .back-ff { border:0; background:#DDD url('f2.png') no-repeat left top !important; color:#000 !important;}
 
@@ -247,25 +250,25 @@ background-image:url('topicons.png');
 #drag-ff { width: 220px; height: 220px; background-size:220px !important; position:absolute !important; top:236px; left:410px; }
 
 #drag-tw { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:91px; left:282px; }
-		
+
 #drag-hd { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:169px; left:330px; }
 
 #drag-sp { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:65px; left:75px; }
 
 #drag-io { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:100px; left:5px;}
-		
+
 #drag-id { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:127px; left:45px;}
-		
+
 #drag-tj { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:282px; left:37px;}
-		
+
 #drag-gv { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:272px; left:33px;}
-		
+
 #drag-c2 { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:243px; left:193px;}
-		
+
 #drag-ww { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:190px; left:110px;}
-		
+
 #drag-am { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:252px; left:17px;}
-		
+
 #drag-gt { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:124px; left:275px;}
 
 #drag-ub { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:254px; left:285px;}
@@ -278,17 +281,17 @@ margin:0;
 padding:0;
 
 
-} 
+}
 
 #drop-menu li
-{ height:48px;	
+{ height:48px;
 	margin-bottom:6px;
 }
 #drop-menu li a
 {
 display:block;
 width:275px;
-background: url('ibutton.png') no-repeat left top; 
+background: url('ibutton.png') no-repeat left top;
 text-decoration:none;
 font-size:12pt;
 padding:10px 0px 10px 0px;
@@ -313,7 +316,7 @@ text-decoration:none;
 }
 
 .icoico {
-	
+
 	height:61px;
 	width:65px;
 	 align:baseline;
@@ -338,7 +341,7 @@ text-decoration:none;
      $( "#drag-c2" ).draggable({ opacity: 0.35 });
      $( "#drag-ub" ).draggable({ opacity: 0.35 });
      $( "#set div" ).draggable({ stack: "#set div" });
-     $( "#dialog" ).dialog({ 
+     $( "#dialog" ).dialog({
 
 			resizable: false,
 			draggable: false,
@@ -347,31 +350,31 @@ text-decoration:none;
 			height: 271,
 			show: { effect: 'fade', duration: 500 } ,
 			hide: { effect: 'fade', duration: 500 } ,
-			position: { 
+			position: {
 			    my: 'right top',
 			    at: 'right top',
 			    of: $('#menubtn'),
 			    offset: '-20 5'
 			  } });
-			  
-			$( "#legend" ).dialog({ 
+
+			$( "#legend" ).dialog({
 			resizable: false,
 			draggable: true,
 			autoOpen: false,
 			width:750,
 			height: 480,
 			show: { effect: 'fade', duration: 500 } ,
-			hide: { effect: 'fade', duration: 500 } 
+			hide: { effect: 'fade', duration: 500 }
 			 });
-			 
-			$( "#biobox" ).dialog({ 
+
+			$( "#biobox" ).dialog({
 			resizable: false,
 			draggable: true,
 			autoOpen: false,
 			width:600,
 			height: 400,
 			show: { effect: 'fade', duration: 500 } ,
-			hide: { effect: 'fade', duration: 500 } 
+			hide: { effect: 'fade', duration: 500 }
 			 });
 });
 
@@ -379,23 +382,23 @@ text-decoration:none;
 	$(document).on('click' ,'#menubtn', function() {
 		$( "#dialog" ).dialog("open");
 	});
-	
+
 	$(document).on('click' ,'#legendbtn', function() {
 		$( "#legend" ).dialog("open");
 	});
-	
+
 	$(document).on('click' ,'#bioboxbtn', function() {
 		$( "#biobox" ).dialog("open");
 	});
-	
+
 	$(document).on('click' ,'#closeme', function() {
 		$( "#dialog" ).dialog("close");
 	});
-	
+
 
 
 $(document).on('click', '#lineme', function () {
-	
+
 		$("#dialog").dialog("close");
 
    $("#drag-tj").animate({top: 75, left: 20}, { duration: 400, queue: false }).css("z-index","1");
@@ -419,7 +422,7 @@ $(document).on('click', '#clickme', function () {
 });
 
 function shuffleit() {
-	
+
 	$("#dialog").dialog("close");
 
     $("#drag-ub").animate({
@@ -450,7 +453,7 @@ function shuffleit() {
        top: Math.floor((Math.random()*230)+60),
        left: Math.floor((Math.random()*380)+50)
     }, { duration: 400, queue: false });
-    	
+
    				$("#drag-tj").animate({
        top: Math.floor((Math.random()*230)+60),
        left: Math.floor((Math.random()*380)+50)
@@ -474,84 +477,84 @@ function shuffleit() {
     	    	    $("#drag-io").animate({
        top: Math.floor((Math.random()*230)+60),
        left: Math.floor((Math.random()*380)+50)
-    }, { duration: 400, queue: false });   
+    }, { duration: 400, queue: false });
 };
 
 
-$(function() {  
-		$(document).on('click', '#goback-ff', function(){	
+$(function() {
+		$(document).on('click', '#goback-ff', function(){
 				$("#drag-ff").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-ff><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>FitFiler</span><p class=prose><strong>Advisor</strong><br>FitFiler is a family of technologies that unites health data tracking with group-based social tools to yield a next generation approach to managing wellness. Aimed at a worldwide audience, there is a heavy mobility component. </span><p class=prose><strong>Dates</strong> 2011 - Current<br><strong>Status</strong> Pilot<br></p>',
 					onStart: function () {$("#drag-ff").removeClass("dragshadow"); $("#drag-ff").removeClass("front-ff");},
 					onFinish: function () {$("#drag-ff").addClass("back-ff");$("#drag-ff").addClass("dragshadow");}
 					});   });   });
-					
-					$(function() {  
-		$(document).on('click', '#gomid-ff', function(){	
+
+					$(function() {
+		$(document).on('click', '#gomid-ff', function(){
 				$("#drag-ff").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-ff><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>FitFiler</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-social.png><img src=sq-cloud.png><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-infra.png><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><img src=sq-startup.png><span class=invl><strong>Users</strong>: 6,000 pilot</span></p>',
 					onStart: function () {$("#drag-ff").removeClass("dragshadow"); $("#drag-ff").removeClass("back-ff");;},
 					onFinish: function () {$("#drag-ff").addClass("back-ff");$("#drag-ff").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-ff', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-ff', function(){
 					$("#drag-ff").flippy({ direction:'LEFT', light:0,  color_target:'#336633', content:'<span id=goback-ff><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-ff").removeClass("dragshadow"); $("#drag-ff").removeClass("back-ff");},
-					onFinish: function () {$("#drag-ff").addClass("front-ff"); $("#drag-ff").addClass("dragshadow");}		
+					onFinish: function () {$("#drag-ff").addClass("front-ff"); $("#drag-ff").addClass("dragshadow");}
 					});   });   });
-			
-			$(function() {  
-		$(document).on('click', '#goback-id', function(){	
+
+			$(function() {
+		$(document).on('click', '#goback-id', function(){
 				$("#drag-id").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-id><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>IdeaDev</span><p class=prose><strong>Managing Director</strong><br><br>Based in NYC, IdeaDev was a software design agency. Major clients included Pfizer, GE, AAA, and Citibank.  </span><p class=prose><strong>Dates</strong> 1999 - 2007<br><strong>Status</strong> Retired<br>',
 					onStart: function () {$("#drag-id").removeClass("dragshadow"); $("#drag-id").removeClass("front-id");},
 					onFinish: function () {$("#drag-id").addClass("back-id");$("#drag-id").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click' ,'#gomid-id', function(){	
+
+$(function() {
+		$(document).on('click' ,'#gomid-id', function(){
 					$("#drag-id").flippy({ direction:'TOP', light:0, content:'<span id=gofront-id><img src=flip.png  hspace=4 vspace=4></span><span class=ttlspc>IdeaDev</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-win.png><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><img src=sq-startup.png><img src=sq-lab.png><span class=invl><strong>Fortune 500 Clients</strong>: 6</span></p>',
   				onStart: function () {$("#drag-id").removeClass("dragshadow"); $("#drag-id").removeClass("back-id");},
 					onFinish: function () {$("#drag-id").addClass("back-id");$("#drag-id").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-id', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-id', function(){
 					$("#drag-id").flippy({ direction:'LEFT', light:0, color_target:'#6666cc', content:'<span id=goback-id><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-id").removeClass("dragshadow"); $("#drag-id").removeClass("back-id");},
-					onFinish: function () {$("#drag-id").addClass("front-id"); $("#drag-id").addClass("dragshadow");}		
+					onFinish: function () {$("#drag-id").addClass("front-id"); $("#drag-id").addClass("dragshadow");}
 					});   });   });
-			
-			
-$(function() {  
-		$(document).on('click', '#goback-hd', function(){	
+
+
+$(function() {
+		$(document).on('click', '#goback-hd', function(){
 				$("#drag-hd").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-hd><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>HeresDinner</span><p class=prose><strong>Investor</strong><br>HeresDinner is an outsourced food delivery service, combining online ordering with boots on the ground. Piloted for two years in Princeton, NJ, HD is planning re-release in the Northeast with a new emphasis on mobility. </span><p class=prose><strong>Dates</strong> 2005 - Current<br><strong>Status</strong> Post-Pilot<br></p>',
 					onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").removeClass("front-hd");},
 					onFinish: function () {$("#drag-hd").addClass("back-hd");$("#drag-hd").addClass("dragshadow");}
 					});   });   });
-					
-					$(function() {  
-		$(document).on('click' ,'#gomid-hd', function(){	
+
+					$(function() {
+		$(document).on('click' ,'#gomid-hd', function(){
 					$("#drag-hd").flippy({ direction:'LEFT', light:0, content:'<span id=gofront-hd><img src=flip.png  hspace=4 vspace=4></span><span class=ttlspc>HeresDinner</span><p class=prose><span class=invl><strong>Involvement</strong></span> <img src=sq-mobile.png><img src=sq-social.png><img src=sq-cloud.png><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-data.png><img src=sq-ui.png><img src=sq-prod.png><img src=sq-startup.png><span class=invl><strong>Users</strong>: 700 pilot</span></p>',
   				onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").removeClass("back-hd");},
 					onFinish: function () {$("#drag-hd").addClass("back-hd");$("#drag-hd").addClass("dragshadow");}
 					});   });   });
-					
 
-$(function() {  
-		$(document).on('click' ,'#gofront-hd', function(){	
+
+$(function() {
+		$(document).on('click' ,'#gofront-hd', function(){
 					$("#drag-hd").flippy({ direction:'LEFT', light:0, content:'<span id=goback-hd><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").removeClass("back-hd");},
-					onFinish: function () {$("#drag-hd").addClass("front-hd"); $("#drag-hd").addClass("dragshadow");}		
-					});   });   });	
-					
-					
+					onFinish: function () {$("#drag-hd").addClass("front-hd"); $("#drag-hd").addClass("dragshadow");}
+					});   });   });
 
-					  
-$(function() {  
-		$(document).on('click', '#goback-sp', function(){	
+
+
+
+$(function() {
+		$(document).on('click', '#goback-sp', function(){
 				$("#drag-sp").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-sp><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Author</span><br><p class=prose><strong>Supply Side Social Media <a href=http://supplysidesocialmedia.com target=_blank></a></strong><br>This book explores the economics of social media, proposing alternate ways to generate revenue.</i> Fall 2013</i><br><strong>The Post-PC World Survival Guide</strong><br>The book explores 50 years of computing, and how recent developments have entirely changed the way services are designed and consumed. <i>Winter 2013</i>',
 					onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("front-sp");},
@@ -559,214 +562,214 @@ $(function() {
 						}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-sp', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-sp', function(){
 					$("#drag-sp").flippy({ direction:'LEFT', light:0, content:'<span id=goback-sp><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("back-sp");},
 					onFinish: function () {$("#drag-sp").addClass("front-sp"); $("#drag-sp").addClass("dragshadow");
-						}		
-					});   });   });	
-					
-$(function() {  
-		$(document).on('click', '#goback-tw', function(){	
+						}
+					});   });   });
+
+$(function() {
+		$(document).on('click', '#goback-tw', function(){
 				$("#drag-tw").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-tw><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>The Window</span><p class=prose><strong>Creator, Editor</strong><br>The Window is a Philosophy resource created in 1995 while I was a student at Trinity College. In the intervening 17 years, it is now widely cited as a primary source on the Web. </span><p class=prose><strong>Dates</strong> 1995 - Current<br><strong>Status</strong> Online<br>',
 					onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").removeClass("front-tw");},
 					onFinish: function () {$("#drag-tw").addClass("back-tw");$("#drag-tw").addClass("dragshadow");}
 					});   });   });
-					
-					$(function() {  
-		$(document).on('click' ,'#gomid-tw', function(){	
+
+					$(function() {
+		$(document).on('click' ,'#gomid-tw', function(){
 					$("#drag-tw").flippy({ direction:'LEFT', light:0, content:'<span id=gofront-tw><img src=flip.png  hspace=4 vspace=4></span><span class=ttlspc>The Window</span><p class=prose><span class=invl><strong>Involvement</strong></span><br><img src=sq-lamp.png><img src=sq-eng.png><img src=sq-data.png><img src=sq-ui.png><img src=sq-pub.png><img src=sq-lab.png><span class=invl><strong>Online For</strong>: 17 years</span></p>',
   				onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").removeClass("back-tw");},
 					onFinish: function () {$("#drag-tw").addClass("back-tw");$("#drag-tw").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-tw', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-tw', function(){
 					$("#drag-tw").flippy({ direction:'LEFT', light:0, color_target:'#3366cc', content:'<span id=goback-tw><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").removeClass("back-tw");},
-					onFinish: function () {$("#drag-tw").addClass("front-tw"); $("#drag-tw").addClass("dragshadow");}		
-					});   });   });			
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-io', function(){	
+					onFinish: function () {$("#drag-tw").addClass("front-tw"); $("#drag-tw").addClass("dragshadow");}
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-io', function(){
 				$("#drag-io").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-io><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>IntranetOffice</span><p class=prose><strong>CTO, Lead Architect, Evangelist</strong><br>I/O was a collaboration and communication platform I created in 1997, which eventually spawned a family of knowledge-management and CRM products for the Fortune 500. </p><p class=prose><strong>Dates</strong> 1997 - 2004<br><strong>Status</strong> Retired<br>',
 					onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("front-io");},
 					onFinish: function () {$("#drag-io").addClass("back-io");$("#drag-io").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gomid-io', function(){	
+$(function() {
+		$(document).on('click' ,'#gomid-io', function(){
 					$("#drag-io").flippy({ direction:'LEFT', light:0, content:'<span id=gofront-io><img src=flip.png hspace=4 vspace=4></span><span class=ttlspc>IntranetOffice</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-win.png><img src=sq-eng.png><img src=sq-data.png><img src=sq-ui.png><img src=sq-data.png><br><img src=sq-prod.png><img src=sq-startup.png></p>',
   				onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("back-io");},
 					onFinish: function () {$("#drag-io").addClass("back-io");$("#drag-io").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click' ,'#gofront-io', function(){	
+
+$(function() {
+		$(document).on('click' ,'#gofront-io', function(){
 					$("#drag-io").flippy({ direction:'TOP', light:0, color_target:'#cccc33', content:'<span id=goback-io><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("back-io");},
 					onFinish: function () {$("#drag-io").addClass("front-io"); $("#drag-io").addClass("dragshadow");
 					}
-					});   });   });		
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-c2', function(){	
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-c2', function(){
 				$("#drag-c2").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-c2><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Cloud Two</span><p class=prose><strong>Lead Researcher</strong><br>Cloud-two is my lab environment for designing and testing alternative cloud implementations, especially methods of efficient neural processing in a cloud architecture.</p> <p class=prose><strong>Dates</strong> 2010 - Current<br><strong>Status</strong> Experimental<br></p> ',
 					onStart: function () {$("#drag-c2").removeClass("dragshadow"); $("#drag-c2").removeClass("front-c2");},
 					onFinish: function () {$("#drag-c2").addClass("back-c2");$("#drag-c2").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click', '#gomid-c2', function(){	
+
+$(function() {
+		$(document).on('click', '#gomid-c2', function(){
 				$("#drag-c2").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-c2><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Cloud Two</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-cloud.png><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-infra.png><img src=sq-data.png><img src=sq-lab.png><span class=invl><strong>Size</strong>: 256 cores/6 nodes</span></p>',
 					onStart: function () {$("#drag-c2").removeClass("dragshadow"); $("#drag-c2").removeClass("back-c2");;},
 					onFinish: function () {$("#drag-c2").addClass("back-c2");$("#drag-c2").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click' ,'#gofront-c2', function(){	
+
+$(function() {
+		$(document).on('click' ,'#gofront-c2', function(){
 					$("#drag-c2").flippy({ direction:'LEFT', light:0, content:'<span id=goback-c2><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-c2").removeClass("dragshadow"); $("#drag-c2").removeClass("back-c2");},
 					onFinish: function () {$("#drag-c2").addClass("front-c2"); $("#drag-c2").addClass("dragshadow");
 					}
-					});   });   });	
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-gv', function(){	
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-gv', function(){
 				$("#drag-gv").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-gv><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Boxqueue</span><p class=prose><strong>Advisor</strong><br><br>Boxqueue is a startup focusing on rapid provisioning and intra-infra orchestration in the cloud space. </p><p class=prose><strong>Dates</strong> 2013 - Current<br><strong>Status</strong> Development<br>',
 					onStart: function () {$("#drag-gv").removeClass("dragshadow"); $("#drag-gv").removeClass("front-gv");},
 					onFinish: function () {$("#drag-gv").addClass("back-gv");$("#drag-gv").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-gv', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-gv', function(){
 					$("#drag-gv").flippy({ direction:'LEFT', light:0, content:'<span id=goback-gv><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-gv").removeClass("dragshadow"); $("#drag-gv").removeClass("back-gv");},
 					onFinish: function () {$("#drag-gv").addClass("front-gv"); $("#drag-gv").addClass("dragshadow");
 					}
-					});   });   });						
-					
-$(function() {  
-		$(document).on('click', '#goback-ub', function(){	
+					});   });   });
+
+$(function() {
+		$(document).on('click', '#goback-ub', function(){
 				$("#drag-ub").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-ub><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Genesis</span><p class=prose><strong>The Next Big Thing</strong><br>Project Genesis is a reference design for building personal ecosystems. It uses basic building blocks like social, cloud, and mobile to give each user a private, personal platform...free of ads.</span><p class=prose><strong>Dates</strong> 2012-Current<br>',
 					onStart: function () {$("#drag-ub").removeClass("dragshadow"); $("#drag-ub").removeClass("front-ub");},
 					onFinish: function () {$("#drag-ub").addClass("back-ub");$("#drag-ub").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click', '#gomid-ub', function(){	
+
+$(function() {
+		$(document).on('click', '#gomid-ub', function(){
 				$("#drag-ub").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-ub><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>r</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-win.png><img src=sq-eng.png><img src=sq-infra.png><br><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><span class=invl><strong>Users</strong>: 90,000</span></p>',
 					onStart: function () {$("#drag-ub").removeClass("dragshadow"); $("#drag-ub").removeClass("back-ub");;},
 					onFinish: function () {$("#drag-ub").addClass("back-ub");$("#drag-ub").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click' ,'#gofront-ub', function(){	
+
+$(function() {
+		$(document).on('click' ,'#gofront-ub', function(){
 					$("#drag-ub").flippy({ direction:'LEFT', light:0, content:'<span id=goback-ub><img src=flipx.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-ub").removeClass("dragshadow"); $("#drag-ub").removeClass("back-ub");},
 					onFinish: function () {$("#drag-ub").addClass("front-ub"); $("#drag-ub").addClass("dragshadow");
 					}
-					});   });   });					
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-ww', function(){	
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-ww', function(){
 				$("#drag-ww").flippy({ direction:'LEFT', color_target : '#CCCCCC', light:0,
 					content:'<span id=gofront-ww><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Distechnical</span><p class=prose><strong>Blog</strong><br>My peronal blog, named Distechnical, covers technology from the point of view of of long-term transformation, disruption, and change as a constant.  </span><p class=prose><strong>Dates</strong> 2005 - Current<br><strong>Status</strong> In Production<br>',
 					onStart: function () {$("#drag-ww").removeClass("dragshadow"); $("#drag-ww").removeClass("front-ww");},
 					onFinish: function () {$("#drag-ww").addClass("back-ww");$("#drag-ww").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click', '#gomid-ww', function(){	
+
+$(function() {
+		$(document).on('click', '#gomid-ww', function(){
 				$("#drag-ww").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-ww><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Watch The Wire</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-social.png><img src=sq-cloud.png><img src=sq-lamp.png><img src=sq-win.png><br><img src=sq-infra.png><img src=sq-ui.png><img src=sq-data.png><img src=sq-pub.png></p>',
 					onStart: function () {$("#drag-ww").removeClass("dragshadow"); $("#drag-ww").removeClass("back-ww");;},
 					onFinish: function () {$("#drag-ww").addClass("back-ww");$("#drag-ww").addClass("dragshadow");}
 					});   });   });
-					
 
-$(function() {  
-		$(document).on('click' ,'#gofront-ww', function(){	
+
+$(function() {
+		$(document).on('click' ,'#gofront-ww', function(){
 					$("#drag-ww").flippy({ direction:'LEFT', light:0, color_target: '#595a7b', content:'<span id=goback-ww><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-ww").removeClass("dragshadow"); $("#drag-ww").removeClass("back-ww");},
 					onFinish: function () {$("#drag-ww").addClass("front-ww"); $("#drag-ww").addClass("dragshadow");
 					}
-					});   });   });					
-					
-$(function() {  
-		$(document).on('click', '#goback-gt', function(){	
+					});   });   });
+
+$(function() {
+		$(document).on('click', '#goback-gt', function(){
 				$("#drag-gt").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-gt><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>GorillaTeach</span><p class=prose><strong>Advisor</strong><br>GorillaTeach aims to provide the world a venue to unite the two most important assets we have: the contemporary living knowledge of our civilization, and the future of our children.  </span><p class=prose><strong>Dates</strong> 2011 - Current<br><strong>Status</strong> Pilot<br>',
 					onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("front-gt");},
 					onFinish: function () {$("#drag-gt").addClass("back-gt");$("#drag-gt").addClass("dragshadow");}
 					});   });   });
 
-					
-$(function() {  
-		$(document).on('click', '#gomid-gt', function(){	
+
+$(function() {
+		$(document).on('click', '#gomid-gt', function(){
 				$("#drag-gt").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-gt><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>GorillaTeach</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-social.png><img src=sq-lamp.png><br><img src=sq-pub.png><img src=sq-lab.png></p>',
 					onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("back-gt");;},
 					onFinish: function () {$("#drag-gt").addClass("back-gt");$("#drag-gt").addClass("dragshadow");}
 					});   });   });
-					
-					
-					
-$(function() {  
-		$(document).on('click' ,'#gofront-gt', function(){	
+
+
+
+$(function() {
+		$(document).on('click' ,'#gofront-gt', function(){
 					$("#drag-gt").flippy({ direction:'LEFT', light:0, content:'<span id=goback-gt><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("back-gt");},
 					onFinish: function () {$("#drag-gt").addClass("front-gt"); $("#drag-gt").addClass("dragshadow");
 					}
-					});   });   });		
-					
-					
-					$(function() {  
-		$(document).on('click', '#goback-am', function(){	
+					});   });   });
+
+
+					$(function() {
+		$(document).on('click', '#goback-am', function(){
 				$("#drag-am").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-am><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>AMS</span><p class=prose><strong>Chief Architect</strong><br>Attendee Managememt was a white-label event planning system for enterprises. It handled enrollment, course selection, testing, surveying, and event planning down to the seating arrangements for thousands of attendees. </span><p class=prose><strong>Dates</strong> 2001 - 2008<br><strong>Status</strong> Retired<br>',
 					onStart: function () {$("#drag-am").removeClass("dragshadow"); $("#drag-am").removeClass("front-am");},
 					onFinish: function () {$("#drag-am").addClass("back-am");$("#drag-am").addClass("dragshadow");}
 					});   });   });
-					
-					$(function() {  
-		$(document).on('click', '#gomid-am', function(){	
+
+					$(function() {
+		$(document).on('click', '#gomid-am', function(){
 				$("#drag-am").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-am><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>AMS</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-lamp.png><img src=sq-win.png><img src=sq-eng.png><br><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><span class=invl><strong>Users</strong>: 130,000</span></p>',
 					onStart: function () {$("#drag-am").removeClass("dragshadow"); $("#drag-am").removeClass("back-am");;},
 					onFinish: function () {$("#drag-am").addClass("back-am");$("#drag-am").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click' ,'#gofront-am', function(){	
+
+$(function() {
+		$(document).on('click' ,'#gofront-am', function(){
 					$("#drag-am").flippy({ direction:'LEFT', light:0, content:'<span id=goback-am><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-am").removeClass("dragshadow"); $("#drag-am").removeClass("back-am");},
 					onFinish: function () {$("#drag-am").addClass("front-am"); $("#drag-am").addClass("dragshadow");
 					}
-					});   });   });													
-					
-					$(function() {  
-		$(document).on('click', '#goback-tj', function(){	
+					});   });   });
+
+					$(function() {
+		$(document).on('click', '#goback-tj', function(){
 				$("#drag-tj").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-tj><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Trincoll Journal</span><p class=prose><strong>Editor-In-Chief</strong><br>TJ was the first regularly-published, exclusively-online Web magazine, starting at Trinity College in 1993 on NCSA Mosaic. Yes, Mosaic.  </span><p class=prose><strong>Dates</strong> 1993-1996<br><strong>Status</strong> Archived<br>',
 					onStart: function () {$("#drag-tj").removeClass("dragshadow"); $("#drag-tj").removeClass("front-tj");},
 					onFinish: function () {$("#drag-tj").addClass("back-tj");$("#drag-tj").addClass("dragshadow");}
 					});   });   });
-					
-$(function() {  
-		$(document).on('click', '#gomid-tj', function(){	
+
+$(function() {
+		$(document).on('click', '#gomid-tj', function(){
 				$("#drag-tj").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-tj><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Trincoll Journal</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><img src=sq-pub.png></p>',
 					onStart: function () {$("#drag-tj").removeClass("dragshadow"); $("#drag-tj").removeClass("back-tj");;},
@@ -774,14 +777,14 @@ $(function() {
 					});   });   });
 
 
-$(function() {  
-		$(document).on('click' ,'#gofront-tj', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-tj', function(){
 					$("#drag-tj").flippy({ direction:'LEFT', light:0, content:'<span id=goback-tj><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-tj").removeClass("dragshadow"); $("#drag-tj").removeClass("back-tj");},
 					onFinish: function () {$("#drag-tj").addClass("front-tj"); $("#drag-tj").addClass("dragshadow");
 					}
-					});   });   });				
-				
+					});   });   });
+
 
 </script>
 
@@ -791,11 +794,11 @@ $(function() {
      <div class="bigbox">
      <div class="topribbon" style="left:0;top:0;">
      	<div style="float:left;"><img src="innameonly.png"></div>
-   
+
      </div>
 
      </div>
-     
+
 
 <div id="dialog" title="tools">
 
@@ -808,7 +811,7 @@ $(function() {
 </ul>
 
 
-</div> 
+</div>
 </div>
 
 
@@ -854,7 +857,7 @@ $(function() {
 
 <div id="drag-am" class="ui-widget-content dragshadow front-am">
 <span id=goback-am><img src=flipx.png  hspace=4 vspace=4></span>
-</div> 
+</div>
 
 <div id="drag-id" class="ui-widget-content dragshadow front-id">
 <span id=goback-id><img src=flip.png  hspace=4 vspace=4></span>
@@ -913,4 +916,3 @@ $(function() {
 </div>
     </body>
 </html>
-
