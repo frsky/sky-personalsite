@@ -3,7 +3,7 @@ $t9 = $_SERVER['DOCUMENT_ROOT'];
 $moof="$t9/fiplog.log";
 $logline = date("Y-m-d H:i:s") . "\t" . $_SERVER['REMOTE_ADDR'] . "\t" . "FRANK" . "\t" .  $_SERVER['HTTP_USER_AGENT'] . "\r\n";
 $mooq = file_put_contents($moof, $logline, FILE_APPEND);
-?>
+?> 
 <!DOCTYPE html>
 <html lang="en">
 
