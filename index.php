@@ -12,7 +12,6 @@ var l = document.createElement('link'); l.rel = 'stylesheet';
 l.href = 'jquery-ui-1.8.20.custom.min.css';
 var h = document.getElementsByTagName('head')[0];  h.parentNode.insertBefore(l, h);
 };
-
 var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(cb);
