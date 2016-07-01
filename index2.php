@@ -20,7 +20,6 @@
 <script src="jquery/js/jquery.ui.touch-punch.min.js"></script>
 <script src="jquery/js/jquery.flippy.min.js"></script>
 	<style>
-
 body {
 	height:100%;
 	width:100%;
