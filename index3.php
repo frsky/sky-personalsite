@@ -30,8 +30,6 @@ document.write('<script language="javascript" type="text/javascript" src="http:/
         }
         //]]>
 
-
-
         </script>
       </span>
     </ div >
