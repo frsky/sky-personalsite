@@ -26,7 +26,6 @@ $mooq = file_put_contents($moof, $logline, FILE_APPEND);
 <script src="jquery/js/jquery-ui-1.8.20.custom.min.js"></script>
 <script src="jquery/js/jquery.ui.touch-punch.min.js"></script>
 <script src="jquery/js/jquery.flippy.min.js"></script>
-
 <script>
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
