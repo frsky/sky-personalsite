@@ -12,7 +12,7 @@ document.write('<script language="javascript" type="text/javascript" src="http:/
 //]]>
 </script>
 </head>
-<body>
+<body>     
 <div class="page">
   <div class="header clear">
     <script type="text/javascript">
