@@ -5,14 +5,15 @@ $logline = date("Y-m-d H:i:s") . "\t" . $_SERVER['REMOTE_ADDR'] . "\t" . "FRANK"
 $mooq = file_put_contents($moof, $logline, FILE_APPEND);
 ?>
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Frank Sikernitsky</title>
-<meta name="description" content="A fun and unique look at the major products and projects of noted engineer and entrepreneur Frank Sikernitsky.">
-<meta name="apple-mobile-web-app-capable"  content="yes"  /><meta  name=viewport content="width=device-width,shrink-to-fit=no">
+<meta name = "description" content="A fun and unique look at the major products and projects of noted engineer and entrepreneur Frank Sikernitsky.">
+<meta name = "apple-mobile-web-app-capable"  content="yes"  /><meta  name=viewport content="width=device-width,shrink-to-fit=no">
 <script>
 var cb = function() {
 var l = document.createElement('link'); l.rel = 'stylesheet';
 l.href = 'jquery-ui-1.8.20.custom.min.css';
 var h = document.getElementsByTagName('head')[0];  h.parentNode.insertBefore(l, h);
 };
+
 var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(cb);
