@@ -3,30 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<title>curriculum flipperae : frank sikernitsky</title>
-	
 
-<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name = "viewport" content = "width = 980px"/>
 
 <link rel="stylesheet" href="jquery/css/custom-theme/jquery-ui-1.8.20.custom.css" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 <script src="jquery/js/jquery-1.7.2.min.js"></script>
 <script src="jquery/js/jquery-ui-1.8.20.custom.min.js"></script>
 <script src="jquery/js/jquery.ui.touch-punch.min.js"></script>
-<script src="jquery/js/jquery.flippy.min.js"></script>	
-
-
+<script src="jquery/js/jquery.flippy.min.js"></script>
 	<style>
-		
-		
+
 body {
 	height:100%;
 	width:100%;
 	background:#666;}
-	
+
 .bigbox {
 	display:block;
   position:absolute;
@@ -37,7 +33,7 @@ body {
 	height:100%;
 	background: #666;
 	}
-	
+
 	.menuitem
 	{font-size:14px;}
 
@@ -54,10 +50,10 @@ body {
 	font-size: 10pt;
 	text-align: center;
 	}
-	
+
 
 	.dragshadow {
-	border:0; 
+	border:0;
   -moz-box-shadow:    2px 2px 9px 3px #333;
   -webkit-box-shadow: 2px 2px 9px 3px #333;
   box-shadow:         2px 3px 9px 3px #333;
@@ -69,7 +65,7 @@ body {
 
 
 .bodyprose {
-	
+
 	color:#FFFFFF;
 	font-family: Lucida Grande, Helvetica;
 	font-size: 9pt;
@@ -94,7 +90,7 @@ body {
 
 .divact2 {
 	text-align:center;width:100px;float:left;
-	
+
 }
 
 .actb { padding-top:6px;}
@@ -104,7 +100,7 @@ body {
 	vertical-align:top;
 	padding-top:4px;
 }
-	
+
 
 .prose {
 	font-size:8pt;
@@ -132,7 +128,7 @@ padding-right:18px;
 .topicon {
 height:42px;
 width:70px;
-background-image:url('topicons.png'); 
+background-image:url('topicons.png');
 
 }
 
@@ -146,7 +142,7 @@ background-image:url('topicons.png');
 
 
 
-	
+
 .front-ff { border:0; background:#222 url('ff.png') no-repeat left top !important; color:#fff !important; }
 .back-ff { border:0; background:#DDD url('f2.png') no-repeat left top !important; color:#000 !important;}
 
@@ -188,31 +184,30 @@ background-image:url('topicons.png');
 .back-fx { border:0; background:#DDD url('f2.png') no-repeat left top !important; color:#000 !important;}
 
 
-
 #drag-ff { width: 220px; height: 220px; background-size:220px !important; position:absolute !important; top:256px; left:386px; }
 
 #drag-tw { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:91px; left:282px; }
-		
+
 #drag-hd { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:169px; left:317px; }
 
 #drag-sp { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:65px; left:75px; }
 
 #drag-io { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:100px; left:5px;}
-		
+
 #drag-id { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:127px; left:45px;}
-		
+
 #drag-tj { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:282px; left:37px;}
-		
+
 #drag-gv { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:272px; left:33px;}
-		
+
 #drag-fx { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:204px; left:239px;}
-		
+
 #drag-c2 { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:243px; left:193px;}
-		
+
 #drag-ww { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:190px; left:110px;}
-		
+
 #drag-am { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:252px; left:17px;}
-		
+
 #drag-gt { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:124px; left:275px;}
 
 
@@ -221,12 +216,11 @@ background-image:url('topicons.png');
 list-style-type:none;
 margin:0;
 padding:0;
-} 
+}
 
 #drop-menu li a
 {
-display:block;
-width:250px;
+display:block;width:250px;
 text-decoration:none;
 font-size:12pt;
 padding:6px;
@@ -263,7 +257,7 @@ background:#555;
 
 
 $(document).on('click', '#lineme', function () {
-	
+
 		$("#dialog").dialog("close");
 
    $("#drag-tj").animate({top: 65, left: 20}, { duration: 400, queue: false }).css("z-index","1");
@@ -287,7 +281,7 @@ $(document).on('click', '#clickme', function () {
 });
 
 function shuffleit() {
-	
+
 	$("#dialog").dialog("close");
 
     $("#drag-fx").animate({
@@ -318,7 +312,7 @@ function shuffleit() {
        top: Math.floor((Math.random()*230)+60),
        left: Math.floor((Math.random()*380)+50)
     }, { duration: 400, queue: false });
-    	
+
    				$("#drag-tj").animate({
        top: Math.floor((Math.random()*230)+60),
        left: Math.floor((Math.random()*380)+50)
@@ -342,61 +336,61 @@ function shuffleit() {
     	    	    $("#drag-io").animate({
        top: Math.floor((Math.random()*230)+60),
        left: Math.floor((Math.random()*380)+50)
-    }, { duration: 400, queue: false });   
+    }, { duration: 400, queue: false });
 };
 
 
-$(function() {  
-		$(document).on('click', '#goback-ff', function(){	
+$(function() {
+		$(document).on('click', '#goback-ff', function(){
 				$("#drag-ff").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-ff><img src=flipx.png hspace=4 vspace=4></span><img src=is_mobi.png class=is_x><img src=is_mgmt.png class=is_x><img src=is_engr.png class=is_x><p class=prose><span class=cardtitle>FitFiler</span><br><strong>CTO</strong><br>FitFiler is a family of technologies that unites health data tracking with group-based social tools to yield a next generation approach to managing wellness. Aimed at a worldwide audience, there is a heavy mobility component. </span><p class=prose><strong>Dates</strong> 2011 - Current<br><strong>Status</strong> Pilot<br></p>',
 					onStart: function () {$("#drag-ff").removeClass("dragshadow"); $("#drag-ff").removeClass("front-ff");},
 					onFinish: function () {$("#drag-ff").addClass("back-ff");$("#drag-ff").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-ff', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-ff', function(){
 					$("#drag-ff").flippy({ direction:'LEFT', light:0, content:'<span id=goback-ff><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-ff").removeClass("dragshadow"); $("#drag-ff").removeClass("back-ff");},
-					onFinish: function () {$("#drag-ff").addClass("front-ff"); $("#drag-ff").addClass("dragshadow");}		
+					onFinish: function () {$("#drag-ff").addClass("front-ff"); $("#drag-ff").addClass("dragshadow");}
 					});   });   });
-			
-			$(function() {  
-		$(document).on('click', '#goback-id', function(){	
+
+			$(function() {
+		$(document).on('click', '#goback-id', function(){
 				$("#drag-id").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-id><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>IdeaDev</span><br><strong>Managing Director</strong><br>Based in NYC, IdeaDev was a full-service software development agency, also providing consulting and architecture services. Major clients included Pfizer, GE, AAA, and Citibank.  </span><p class=prose><strong>Dates</strong> 1999 - 2007<br><strong>Status</strong> Retired<br>',
 					onStart: function () {$("#drag-id").removeClass("dragshadow"); $("#drag-id").removeClass("front-id");},
 					onFinish: function () {$("#drag-id").addClass("back-id");$("#drag-id").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-id', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-id', function(){
 					$("#drag-id").flippy({ direction:'LEFT', light:0, content:'<span id=goback-id><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-id").removeClass("dragshadow"); $("#drag-id").removeClass("back-id");},
-					onFinish: function () {$("#drag-id").addClass("front-id"); $("#drag-id").addClass("dragshadow");}		
+					onFinish: function () {$("#drag-id").addClass("front-id"); $("#drag-id").addClass("dragshadow");}
 					});   });   });
-			
-			
-$(function() {  
-		$(document).on('click', '#goback-hd', function(){	
+
+
+$(function() {
+		$(document).on('click', '#goback-hd', function(){
 				$("#drag-hd").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-hd><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>HeresDinner</span><br><strong>Investor</strong><br>HeresDinner is a next-generation food delivery and logistics service. HD was piloted for two years in the Princeton, NJ area and is planning re-release with an emphasis on mobility tools, and an entry into the NYC market. </span><p class=prose><strong>Dates</strong> 2005 - Current<br><strong>Status</strong> Post-Pilot<br></p>',
 					onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").removeClass("front-hd");},
 					onFinish: function () {$("#drag-hd").addClass("back-hd");$("#drag-hd").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-hd', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-hd', function(){
 					$("#drag-hd").flippy({ direction:'LEFT', light:0, content:'<span id=goback-hd><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").removeClass("back-hd");},
-					onFinish: function () {$("#drag-hd").addClass("front-hd"); $("#drag-hd").addClass("dragshadow");}		
-					});   });   });	
-					
-					
+					onFinish: function () {$("#drag-hd").addClass("front-hd"); $("#drag-hd").addClass("dragshadow");}
+					});   });   });
 
-					  
-$(function() {  
-		$(document).on('click', '#goback-sp', function(){	
+
+
+
+$(function() {
+		$(document).on('click', '#goback-sp', function(){
 				$("#drag-sp").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-sp><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>Spleened</span><br><strong>Author</strong><br>Spleened is a humor blog based on current events, with a streak of Photoshop manipulation. Heavily sarcastic. </p><p class=prose><strong>Dates</strong> 2008 - Current<br><strong>Status</strong> Actively Published<br>',
 					onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("front-sp");},
@@ -404,179 +398,179 @@ $(function() {
 						}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-sp', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-sp', function(){
 					$("#drag-sp").flippy({ direction:'LEFT', light:0, content:'<span id=goback-sp><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("back-sp");},
 					onFinish: function () {$("#drag-sp").addClass("front-sp"); $("#drag-sp").addClass("dragshadow");
-						}		
-					});   });   });	
-					
-$(function() {  
-		$(document).on('click', '#goback-tw', function(){	
+						}
+					});   });   });
+
+$(function() {
+		$(document).on('click', '#goback-tw', function(){
 				$("#drag-tw").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-tw><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>The Window</span><br><strong>Creator, Editor</strong><br>The Window is a Philosophy resource created in 1995 while I was a student at Trinity College. In the intervening 17 years, it is now widely cited as a primary source on the Web. </span><p class=prose><strong>Dates</strong> 1995 - Current<br><strong>Status</strong> Online<br>',
 					onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").removeClass("front-tw");},
 					onFinish: function () {$("#drag-tw").addClass("back-tw");$("#drag-tw").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-tw', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-tw', function(){
 					$("#drag-tw").flippy({ direction:'LEFT', light:0, content:'<span id=goback-tw><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").removeClass("back-tw");},
-					onFinish: function () {$("#drag-tw").addClass("front-tw"); $("#drag-tw").addClass("dragshadow");}		
-					});   });   });			
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-io', function(){	
+					onFinish: function () {$("#drag-tw").addClass("front-tw"); $("#drag-tw").addClass("dragshadow");}
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-io', function(){
 				$("#drag-io").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-io><img src=flipx.png hspace=4 vspace=4></span><p class=prose><span class=cardtitle>Intranet Office</span><br><strong>CTO, Lead Architect, Evangelist</strong><br>I/O was a collaboration and communication platform I created in 1997, which eventually spawned a succession of knowledge-management and CRM products for AAA and Pfizer. </p><p class=prose><strong>Dates</strong> 1997 - 2004<br><strong>Status</strong> Retired<br>',
 					onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("front-io");},
 					onFinish: function () {$("#drag-io").addClass("back-io");$("#drag-io").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-io', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-io', function(){
 					$("#drag-io").flippy({ direction:'LEFT', light:0, content:'<span id=goback-io><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("back-io");},
 					onFinish: function () {$("#drag-io").addClass("front-io"); $("#drag-io").addClass("dragshadow");
 					}
-					});   });   });		
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-c2', function(){	
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-c2', function(){
 				$("#drag-c2").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-c2><img src=flipx.png hspace=4 vspace=4></span><p class=prose><span class=cardtitle>Cloud-Two</span><br><strong>Investor</strong><br>Cloud-two is a lab environment for designing and testing alternative cloud implementations, especially methods of efficient neural processing in a cloud architecture.</p> <p class=prose><strong>Dates</strong> 2010 - Current<br><strong>Status</strong> Experimental<br></p> ',
 					onStart: function () {$("#drag-c2").removeClass("dragshadow"); $("#drag-c2").removeClass("front-c2");},
 					onFinish: function () {$("#drag-c2").addClass("back-c2");$("#drag-c2").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-c2', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-c2', function(){
 					$("#drag-c2").flippy({ direction:'LEFT', light:0, content:'<span id=goback-c2><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-c2").removeClass("dragshadow"); $("#drag-c2").removeClass("back-c2");},
 					onFinish: function () {$("#drag-c2").addClass("front-c2"); $("#drag-c2").addClass("dragshadow");
 					}
-					});   });   });	
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-gv', function(){	
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-gv', function(){
 				$("#drag-gv").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-gv><img src=flipx.png hspace=4 vspace=4></span><p class=prose><span class=cardtitle>General Virtual</span><br><strong>Investor</strong><br>GV is a nameplate for a variety of virtual consulting services. </p><p class=prose><strong>Dates</strong> 2008 - Current<br><strong>Status</strong> Pilot<br>',
 					onStart: function () {$("#drag-gv").removeClass("dragshadow"); $("#drag-gv").removeClass("front-gv");},
 					onFinish: function () {$("#drag-gv").addClass("back-gv");$("#drag-gv").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-gv', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-gv', function(){
 					$("#drag-gv").flippy({ direction:'LEFT', light:0, content:'<span id=goback-gv><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-gv").removeClass("dragshadow"); $("#drag-gv").removeClass("back-gv");},
 					onFinish: function () {$("#drag-gv").addClass("front-gv"); $("#drag-gv").addClass("dragshadow");
 					}
-					});   });   });						
-					
-$(function() {  
-		$(document).on('click', '#goback-fx', function(){	
+					});   });   });
+
+$(function() {
+		$(document).on('click', '#goback-fx', function(){
 				$("#drag-fx").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-fx><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>fuxnux</span><br><strong>Editor</strong><br>The fuxnux site will be home to a weekly cartoon.</span><p class=prose><strong>Dates</strong> 2011-Current<br><strong>Status</strong> Pilot<br>',
 					onStart: function () {$("#drag-fx").removeClass("dragshadow"); $("#drag-fx").removeClass("front-fx");},
 					onFinish: function () {$("#drag-fx").addClass("back-fx");$("#drag-fx").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-fx', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-fx', function(){
 					$("#drag-fx").flippy({ direction:'LEFT', light:0, content:'<span id=goback-fx><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-fx").removeClass("dragshadow"); $("#drag-fx").removeClass("back-fx");},
 					onFinish: function () {$("#drag-fx").addClass("front-fx"); $("#drag-fx").addClass("dragshadow");
 					}
-					});   });   });					
-					
-					
-$(function() {  
-		$(document).on('click', '#goback-ww', function(){	
+					});   });   });
+
+
+$(function() {
+		$(document).on('click', '#goback-ww', function(){
 				$("#drag-ww").flippy({ direction:'LEFT', color_target : '#CCCCCC', light:0,
 					content:'<span id=gofront-ww><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>Watch the Wire</span><br><strong>Dirty Blogger</strong><br>My own personal blog (the name comes from a somg lyric,) it covers mostly science and technology, managemenemt, being an entrepreneur and all that stuff. </span><p class=prose><strong>Dates</strong> 2005 - Current<br><strong>Status</strong> Held<br>',
 					onStart: function () {$("#drag-ww").removeClass("dragshadow"); $("#drag-ww").removeClass("front-ww");},
 					onFinish: function () {$("#drag-ww").addClass("back-ww");$("#drag-ww").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-ww', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-ww', function(){
 					$("#drag-ww").flippy({ direction:'LEFT', light:0, color_target: '#595a7b', content:'<span id=goback-ww><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-ww").removeClass("dragshadow"); $("#drag-ww").removeClass("back-ww");},
 					onFinish: function () {$("#drag-ww").addClass("front-ww"); $("#drag-ww").addClass("dragshadow");
 					}
-					});   });   });					
-					
-$(function() {  
-		$(document).on('click', '#goback-gt', function(){	
+					});   });   });
+
+$(function() {
+		$(document).on('click', '#goback-gt', function(){
 				$("#drag-gt").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-gt><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>GorillaTeach</span><br><strong>Investor</strong><br>GorillaTeach aims to provide the world a venue to unite the two most important assets we have: the contemporary living knowledge of our civilization, and the future of our children.  </span><p class=prose><strong>Dates</strong> 2011 - Current<br><strong>Status</strong> Pilot<br>',
 					onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("front-gt");},
 					onFinish: function () {$("#drag-gt").addClass("back-gt");$("#drag-gt").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-gt', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-gt', function(){
 					$("#drag-gt").flippy({ direction:'LEFT', light:0, content:'<span id=goback-gt><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("back-gt");},
 					onFinish: function () {$("#drag-gt").addClass("front-gt"); $("#drag-gt").addClass("dragshadow");
 					}
-					});   });   });		
-					
-					
-					$(function() {  
-		$(document).on('click', '#goback-am', function(){	
+					});   });   });
+
+
+					$(function() {
+		$(document).on('click', '#goback-am', function(){
 				$("#drag-am").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-am><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>Attendee Management</span><br><strong>Lead Developer</strong><br>AMS was a white-label event series planning system modelled on a university curriculum system. It handled everything from enrollment, course selection, testing, surveying, and specific event planning down to the seating arrangements for 30,000+ users. </span><p class=prose><strong>Dates</strong> 2001 - 2008<br><strong>Status</strong> Retired<br>',
 					onStart: function () {$("#drag-am").removeClass("dragshadow"); $("#drag-am").removeClass("front-am");},
 					onFinish: function () {$("#drag-am").addClass("back-am");$("#drag-am").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-am', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-am', function(){
 					$("#drag-am").flippy({ direction:'LEFT', light:0, content:'<span id=goback-am><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-am").removeClass("dragshadow"); $("#drag-am").removeClass("back-am");},
 					onFinish: function () {$("#drag-am").addClass("front-am"); $("#drag-am").addClass("dragshadow");
 					}
-					});   });   });													
-					
-					$(function() {  
-		$(document).on('click', '#goback-tj', function(){	
+					});   });   });
+
+					$(function() {
+		$(document).on('click', '#goback-tj', function(){
 				$("#drag-tj").flippy({ direction:'LEFT', light:0,
 					content:'<span id=gofront-tj><img src=flipx.png hspace=4 vspace=4></span><br><p class=prose><span class=cardtitle>Trincoll Journal</span><br><strong>Editor-In-Chief</strong><br>TJ was the first regularly-published Web magazine, starting in 1993 on NCSA Mosaic. Yes, Mosaic.  </span><p class=prose><strong>Dates</strong> 1993-1996<br><strong>Status</strong> Archived<br>',
 					onStart: function () {$("#drag-tj").removeClass("dragshadow"); $("#drag-tj").removeClass("front-tj");},
 					onFinish: function () {$("#drag-tj").addClass("back-tj");$("#drag-tj").addClass("dragshadow");}
 					});   });   });
 
-$(function() {  
-		$(document).on('click' ,'#gofront-tj', function(){	
+$(function() {
+		$(document).on('click' ,'#gofront-tj', function(){
 					$("#drag-tj").flippy({ direction:'LEFT', light:0, content:'<span id=goback-tj><img src=flip.png  hspace=4 vspace=4></span>',
 					onStart: function () {$("#drag-tj").removeClass("dragshadow"); $("#drag-tj").removeClass("back-tj");},
 					onFinish: function () {$("#drag-tj").addClass("front-tj"); $("#drag-tj").addClass("dragshadow");
 					}
-					});   });   });				
-					
+					});   });   });
+
 	$(document).on('click' ,'#menubtn', function() {
-		$( "#dialog" ).dialog({ 
+		$( "#dialog" ).dialog({
 			resizable: false,
 			draggable: false,
 			width:300,
 			show: { effect: 'drop', direction: "up" } ,
 			hide: { effect: 'fade', duration: 500 } ,
 			position: [625,12]
-			 
+
 			 });
 	});
-	
+
 
 </script>
 
 
-	
+
 </head>
 <body>
      <div class="bigbox">
@@ -586,7 +580,7 @@ $(function() {
      </div>
 
      </div>
-     
+
 
 
 
@@ -602,7 +596,7 @@ $(function() {
 <li><a href="#"><img src="about.png" height=25 align="absmiddle"> go to my linkedin</a></li>
 <li><a href="#"><img src="about.png" height=25 align="absmiddle"> go to my twitter</a></li>
 </ul>
-</div> 
+</div>
 </div>
 
 <div id="set">
@@ -629,7 +623,7 @@ $(function() {
 
 <div id="drag-am" class="ui-widget-content dragshadow front-am">
 <span id=goback-am><img src=flipx.png  hspace=4 vspace=4></span>
-</div> 
+</div>
 
 <div id="drag-id" class="ui-widget-content dragshadow front-id">
 <span id=goback-id><img src=flip.png  hspace=4 vspace=4></span>
@@ -679,4 +673,3 @@ $(function() {
 </div>
     </body>
 </html>
-
