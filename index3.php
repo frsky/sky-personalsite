@@ -25,13 +25,16 @@ document.write('<script language="javascript" type="text/javascript" src="http:/
       <span class="header-text">
 
 
-        
+
         <script type="text/javascript">
         //<![CDATA[
         if (window.product_copyrights) {
           document.write('<a class="top-copyright" href="http://www.parallels.com">&copy; 1999-2011, Parallels<br />All rights reserved</a>');
         }
         //]]>
+
+
+        
         </script>
       </span>
     </ div >
