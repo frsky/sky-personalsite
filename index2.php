@@ -201,13 +201,9 @@ background-image:url('topicons.png');
 #drag-gv { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:272px; left:33px;}
 
 #drag-fx { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:204px; left:239px;}
-
 #drag-c2 { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:243px; left:193px;}
-
 #drag-ww { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:190px; left:110px;}
-
 #drag-am { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:252px; left:17px;}
-
 #drag-gt { width: 220px; height: 220px;  background-size:220px !important; position:absolute !important; top:124px; left:275px;}
 
 
