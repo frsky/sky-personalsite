@@ -7,9 +7,6 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name = "viewport" content = "width = 980px"/>
 
-
-
- 
 <link rel="stylesheet" href="jquery/css/custom-theme/jquery-ui-1.8.20.custom.css" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
