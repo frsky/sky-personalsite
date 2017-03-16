@@ -158,9 +158,12 @@ display:inline;text-align:center}
 <div id="drag-hp" class="ui-widget-content dragshadow front-hp"><span id="goback-hp"><img src=flip.png hspace=4 vspace=4></span></div>
 </div>
 <div id="itis" class="bodyprose">
-<div id="itissub" class="bodyprose"><br><p style="font-size:14px;">I'm an engineer, inventor, start-upper, and a bunch of other things. These are my major jobs and projects, on cards, spread around this page. <br><span class="medstrong">You can drag them around, and hit <img src="flipw.png" width="18" align="absbottom"> to flip the card for more info...</span></p><div style="clear:both;"><div id="clickme" class="divact1" style="clear:left;"><img src="shuffleit.png"><br><span class='titleminor'>shuffle</span><br>yeah, go ahead...</div>
-<div id="lineme" class="divact2"><img src="straaait.png"><br><span class='titleminor'>timeline</span><br>old to new</div>
-<div class="divact3" id="bioboxbtn"><img src="frank.png"><br><span class='titleminor'>fast bio</span><br>me in a popup</div>
+<div id="itissub" class="bodyprose"><br><p style="font-size:14px;line-height:16px;">Welcome to my home page!</p><p style="font-size:14px;line-height:16px;padding-top:5px;">I'm an engineer, inventor, author, starter-upper, and a bunch of other things.</p><p style="font-size:14px;line-height:16px;padding-top:5px;">As you can see, I didn't follow the 'minimalist home page' crowd. Instead, here are some of my recent projects, on cards, and scattered around this page.</p> </p><p style="font-size:14px;line-height:16px;padding-top:5px;"><span class="medstrong" >You can drag them around, and hit <img src="flipw.png" width="18" align="absbottom"> to flip the card for more info...</span></p>
+
+<div style="clear:both;margin-top:10px;">
+<div id="clickme" class="divact1" style="clear:left;"><img src="shuffleit.png"><br><span class='titleminor'>shuffle</span><br>yeah, go ahead...</div>
+<div class="divact2" id="bioboxbtn"><img src="frank.png" style="padding-top:3px;"><br><span class='titleminor'>fast bio</span><br>me in a popup</div>
+<div class="divact3" style="clear:left;"><a href="https://twitter.com/stsky" target="_blank" class="golinkedin"><img src="twit.png" style="border:0px;width:45px;height:auto;"></a><br><span class='titleminor'>#stsky</span><br>microblog</div>
 <div class="divact4"><a href="http://www.linkedin.com/pub/frank-sikernitsky/0/148/8aa/" target="_blank" class="golinkedin"><img src="linkin.png" border=0></a><br><span class='titleminor'>profile</span><br>the conventional view</div>
 </div></div></div></div>
 <script src="jquery/js/jquery-1.7.2.min.js" ></script><script src="jquery/js/jquery-ui-1.8.20.custom.min.js" ></script>
