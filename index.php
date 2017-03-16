@@ -79,18 +79,18 @@ body,html{min-height:100%;height:100%}#itis,.bigbox,.topbutton,.topribbon{positi
 .abot{background-position:-306px 0}#itis{top:55px}#itissub{position:relative;width:240px;padding:8px}
 .front-ff{border:0;background:url(ff.png) left top no-repeat #222!important;color:#fff!important}
 .back-ff{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
-.front-sp{border:0;background:url(sp.png) left top no-repeat #222!important;color:#fff!important}
-.back-sp{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
-.front-gt{border:0;background:url(gt.png) left top no-repeat #222!important;color:#fff!important}
-.back-gt{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
+.front-hp{border:0;background:url(hp.png) left top no-repeat #222!important;color:#fff!important}
+.back-hp{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
+.front-rc{border:0;background:url(rc.png) left top no-repeat #222!important;color:#fff!important}
+.back-rc{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
 .front-am{border:0;background:url(am.png) left top no-repeat #222!important;color:#fff!important}
 .back-am{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
 .front-hd{border:0;background:url(hd.png) left top no-repeat #222!important;color:#fff!important}
 .back-hd{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
 .front-tw{border:0;background:url(tw.png) left top no-repeat #222!important;color:#fff!important}
 .back-tw{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
-.front-io{border:0;background:url(io.png) left top no-repeat #222!important;color:#fff!important}
-.back-io{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
+.front-bp{border:0;background:url(bp.png) left top no-repeat #222!important;color:#fff!important}
+.back-bp{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
 .front-id{border:0;background:url(id.png) left top no-repeat #222!important;color:#fff!important}
 .back-id{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
 .front-tj{border:0;background:url(tj.png) left top no-repeat #222!important;color:#fff!important}
@@ -105,9 +105,26 @@ body,html{min-height:100%;height:100%}#itis,.bigbox,.topbutton,.topribbon{positi
 .back-ub{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
 .front-ia{border:0;background:url(ia.png) left top no-repeat #222!important;color:#fff!important}
 .back-ia{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
-.front-kb{border:0;background:url(kb.png) left top no-repeat #222!important;color:#fff!important}
-.back-kb{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}#drag-am,#drag-ff,#drag-gt,#drag-gv,#drag-hd,#drag-hz,#drag-ia,#drag-io,#drag-kb,#drag-sp,#drag-tj,#drag-tw,#drag-ub,#drag-ww{width:220px;height:220px;background-size:220px!important;position:absolute!important}#drag-tj{top:369px;left:266px}#drag-hd{top:210px;left:653px}#drag-tw{top:76px;left:678px}#drag-ff{top:314px;left:528px}#drag-sp{top:352px;left:526px}#drag-io,#drag-ww{top:254px;left:300px}#drag-id{width:220px;height:220px;background-size:220px!important;position:absolute!important;top:30px;left:268px}#drag-gv{top:102px;left:389px}#drag-hz{top:376px;left:363px}#drag-am{top:191px;left:247px}#drag-gt{top:22px;left:583px}#drag-ub{top:359px;left:705px}#drag-kb{top:237px;left:424px}#drag-ia{top:186px;left:519px}#exty{width:10px;height:20px;display:none}
-@media only screen and (max-width:420px){#drag-am,#drag-ff,#drag-gt,#drag-gv,#drag-kb,#drag-tj,#drag-tw{left:100px}#drag-hd,#drag-hz,#drag-ia,#drag-id,#drag-io,#drag-sp,#drag-ub{width:250px;height:250px;background-size:250px!important;position:absolute!important;left:20px}#drag-tj{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:2665px}#drag-hd{top:2485px}#drag-tw{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:2305px}#drag-io{top:2125px}#drag-am{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:1945px}#drag-id{top:1765px}#drag-gv{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:1585px}#drag-sp{top:1405px}#drag-ff{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:1225px}#drag-hz{top:1045px}#drag-gt{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:865px}#drag-ub{top:685px}#drag-kb{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:505px}#drag-ia{top:325px}#itis{position:absolute;top:50px;left:10px;width:auto}#itissub{padding:5px;width:auto}
+.front-g2{border:0;background:url(g2.png) left top no-repeat #222!important;color:#fff!important}
+.back-g2{border:0;background:url(f2.png) left top no-repeat #DDD!important;color:#000!important}
+#drag-am,#drag-ff,#drag-rc,#drag-gv,#drag-hd,#drag-hz,#drag-ia,#drag-bp,#drag-g2,#drag-hp,#drag-tj,#drag-tw,#drag-ub,#drag-ww{width:220px;height:220px;background-size:220px!important;position:absolute!important}
+#drag-tj{top:369px;left:266px}
+#drag-bp{top:219px;left:742px}
+#drag-tw{top:76px;left:678px}
+#drag-ff{top:314px;left:528px}
+#drag-hp{top:372px;left:505px}
+#drag-hd{top:265px;left:355px}
+#drag-id{width:220px;height:220px;background-size:220px!important;position:absolute!important;top:30px;left:340px}
+#drag-gv{top:102px;left:389px}
+#drag-hz{top:376px;left:363px}
+#drag-am{top:191px;left:247px}
+#drag-rc{top:25px;left:582px}
+#drag-ub{top:265px;left:600px}
+#drag-g2{top:200px;left:250px}
+#drag-ia{top:100px;left:500px}
+
+#exty{width:10px;height:20px;display:none}
+@media only screen and (max-width:420px){#drag-am,#drag-ff,#drag-rc,#drag-gv,#drag-g2,#drag-tj,#drag-tw{left:100px}#drag-hd,#drag-hz,#drag-ia,#drag-id,#drag-bp,#drag-hp,#drag-ub{width:250px;height:250px;background-size:250px!important;position:absolute!important;left:20px}#drag-tj{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:2665px}#drag-hd{top:2485px}#drag-tw{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:2305px}#drag-bp{top:2125px}#drag-am{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:1945px}#drag-id{top:1765px}#drag-gv{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:1585px}#drag-hp{top:1405px}#drag-ff{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:1225px}#drag-hz{top:1045px}#drag-rc{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:865px}#drag-ub{top:685px}#drag-g2{width:250px;height:250px;background-size:250px!important;position:absolute!important;top:505px}#drag-ia{top:325px}#itis{position:absolute;top:50px;left:10px;width:auto}#itissub{padding:5px;width:auto}
 .divact1,.divact2{display:none}
 .bodyprose{color:#FFF;font-family:'Open Sans',Lucida Grande,Helvetica,sans-serif;font-size:8pt;font-weight:400}
 .titlemajor{font-size:11pt;font-weight:700}}
@@ -125,20 +142,20 @@ display:inline;text-align:center}
 <div id="actbox" title="about frank sikernitsky" style="display:none;background-color:none !important; background-image:url(bg85.png) !important;">
 <div class="divinnerbox"><?php include('xtac.html'); ?></div></div>
 <div id="set">
-<div id="drag-am" class="ui-widget-content dragshadow front-am"><span id="goback-am"><img src="flipx.png" hspace=4 vspace=4></span></div>
-<div id="drag-tj" class="ui-widget-content dragshadow front-tj"><span id="goback-tj"><img src=flip.png hspace=4 vspace=4></span></div>
-<div id="drag-tw" class="ui-widget-content dragshadow front-tw"><span id="goback-tw"><img src=flip.png hspace=4 vspace=4></span></div>
-<div id="drag-io" class="ui-widget-content dragshadow front-io"><span id="goback-io"><img src=flipx.png hspace=4 vspace=4></span></div>
-<div id="drag-sp" class="ui-widget-content dragshadow front-sp"><span id="goback-sp"><img src=flip.png hspace=4 vspace=4></span></div>
+<!--div id="drag-am" class="ui-widget-content dragshadow front-am"><span id="goback-am"><img src="flipx.png" hspace=4 vspace=4></span></div-->
+<!--div id="drag-tj" class="ui-widget-content dragshadow front-tj"><span id="goback-tj"><img src=flip.png hspace=4 vspace=4></span></div-->
+<!--div id="drag-tw" class="ui-widget-content dragshadow front-tw"><span id="goback-tw"><img src=flip.png hspace=4 vspace=4></span></div-->
 <div id="drag-id" class="ui-widget-content dragshadow front-id"><span id="goback-id"><img src=flip.png hspace=4 vspace=4></span></div>
 <div id="drag-ub" class="ui-widget-content dragbase dragshadow front-ub"><span id="goback-ub"><img src=flip.png hspace=4 vspace=4></span></div>
-<div id="drag-gt" class="ui-widget-content dragshadow front-gt"><span id="goback-gt"><img src=flipm.png hspace=4 vspace=4></span></div>
+<div id="drag-rc" class="ui-widget-content dragshadow front-rc"><span id="goback-rc"><img src=flipm.png hspace=4 vspace=4></span></div>
 <div id="drag-hd" class="ui-widget-content dragshadow front-hd"><span id="goback-hd"><img src=flip.png hspace=4 vspace=4></span></div>
-<div id="drag-ff" class="ui-widget-content dragshadow front-ff"><span id="goback-ff"><img src=flip.png hspace=4 vspace=4></span></div>
-<div id="drag-gv" class="ui-widget-content dragshadow front-gv"><span id="goback-gv"><img src=flipx.png hspace=4 vspace=4></span></div>
-<div id="drag-hz" class="ui-widget-content dragshadow front-hz"><span id="goback-hz"><img src=flipm.png hspace=4 vspace=4></span></div>
-<div id="drag-kb" class="ui-widget-content dragshadow front-kb"><span id="goback-kb"><img src=flip.png hspace=4 vspace=4></span></div>
+<!--div id="drag-ff" class="ui-widget-content dragshadow front-ff"><span id="goback-ff"><img src=flip.png hspace=4 vspace=4></span></div-->
+<!--div id="drag-gv" class="ui-widget-content dragshadow front-gv"><span id="goback-gv"><img src=flipx.png hspace=4 vspace=4></span></div-->
+<!--div id="drag-hz" class="ui-widget-content dragshadow front-hz"><span id="goback-hz"><img src=flipm.png hspace=4 vspace=4></span></div-->
+<div id="drag-g2" class="ui-widget-content dragshadow front-g2"><span id="goback-g2"><img src=flip.png hspace=4 vspace=4></span></div>
 <div id="drag-ia" class="ui-widget-content dragshadow front-ia"><span id="goback-ia"><img src=flip.png hspace=4 vspace=4></span></div>
+<div id="drag-bp" class="ui-widget-content dragshadow front-bp"><span id="goback-bp"><img src=flipx.png hspace=4 vspace=4></span></div>
+<div id="drag-hp" class="ui-widget-content dragshadow front-hp"><span id="goback-hp"><img src=flip.png hspace=4 vspace=4></span></div>
 </div>
 <div id="itis" class="bodyprose">
 <div id="itissub" class="bodyprose"><br><p style="font-size:14px;">I'm an engineer, inventor, start-upper, and a bunch of other things. These are my major jobs and projects, on cards, spread around this page. <br><span class="medstrong">You can drag them around, and hit <img src="flipw.png" width="18" align="absbottom"> to flip the card for more info...</span></p><div style="clear:both;"><div id="clickme" class="divact1" style="clear:left;"><img src="shuffleit.png"><br><span class='titleminor'>shuffle</span><br>yeah, go ahead...</div>
@@ -150,21 +167,21 @@ display:inline;text-align:center}
 <script src="jquery/js/jquery.ui.touch-punch.min.js" ></script><script src="jquery/js/jquery.flippy.min.js" async="true" ></script>
 <script>
 $(function() {
-$( "#drag-io" ).draggable({ opacity: 0.35 });
-$( "#drag-sp" ).draggable({ opacity: 0.35 });
-$( "#drag-gv" ).draggable({ opacity: 0.35 });
-$( "#drag-tw" ).draggable({ opacity: 0.35 });
+$( "#drag-bp" ).draggable({ opacity: 0.35 });
+$( "#drag-hp" ).draggable({ opacity: 0.35 });
+// $( "#drag-gv" ).draggable({ opacity: 0.35 });
+//$( "#drag-tw" ).draggable({ opacity: 0.35 });
 $( "#drag-id" ).draggable({ opacity: 0.35 });
-$( "#drag-gt" ).draggable({ opacity: 0.35 });
-$( "#drag-tj" ).draggable({ opacity: 0.35 });
+$( "#drag-rc" ).draggable({ opacity: 0.35 });
+//$( "#drag-tj" ).draggable({ opacity: 0.35 });
 // $( "#drag-ww" ).draggable({ drag: ga('send', 'event', 'carddrag', 'Distechnical'), opacity: 0.35 });
 $( "#drag-hd" ).draggable({ opacity: 0.35 });
-$( "#drag-ff" ).draggable({ opacity: 0.35 });
-$( "#drag-am" ).draggable({ opacity: 0.35 });
-$( "#drag-hz" ).draggable({ opacity: 0.35 });
+// $( "#drag-ff" ).draggable({ opacity: 0.35 });
+// $( "#drag-am" ).draggable({ opacity: 0.35 });
+//$( "#drag-hz" ).draggable({ opacity: 0.35 });
 $( "#drag-ub" ).draggable({ opacity: 0.35 });
 $( "#drag-ia" ).draggable({ opacity: 0.35 });
-$( "#drag-kb" ).draggable({ opacity: 0.35 });
+$( "#drag-g2" ).draggable({ opacity: 0.35 });
 $( "#set div" ).draggable({ stack: "#set div" });
 
 $( "#dialog" ).dialog({
@@ -203,12 +220,12 @@ hide: { effect: 'fade', duration: 500 }
 });
 });
 
-$( "#drag-io" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'IntranetOffice'); });
-$( "#drag-sp" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'Author'); });
+$( "#drag-bp" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'BoardPath'); });
+$( "#drag-hp" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'HobokenPress'); });
 $( "#drag-gv" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'BoxQueue'); });
 $( "#drag-tw" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'Window'); });
 $( "#drag-id" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'IdeaDev'); });
-$( "#drag-gt" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'rootcloud'); });
+$( "#drag-rc" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'rootcloud'); });
 $( "#drag-tj" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'TrincollJournal'); });
 // $( "#drag-ww" ).draggable({ drag: ga('send', 'event', 'carddrag', 'Distechnical'), opacity: 0.35 });
 $( "#drag-hd" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'HeresDinner'); });
@@ -217,7 +234,7 @@ $( "#drag-am" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'At
 $( "#drag-hz" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'HobokenZoo'); });
 $( "#drag-ub" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'fuxnux'); });
 $( "#drag-ia" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'iasqu'); });
-$( "#drag-kb" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'Klipbrd'); });
+$( "#drag-g2" ).on( "dragstop", function() { ga('send', 'event', 'carddrag', 'GeneralVirtual'); });
 
 $(document).on('click' ,'#menubtn', function() { $( "#dialog" ).dialog("open"); });
 $(document).on('click' ,'#xtactbtn', function() { $( "#xtact" ).dialog("open"); });
@@ -231,20 +248,20 @@ $(document).on('click' ,'.golinkedin',function() { ga('send', 'event', 'mainlink
 $(document).on('click', '#lineme', function () {
 
 $("#dialog").dialog("close");
-$("#drag-tj").animate({top: 399, left: 26}, { duration: 400, queue: false }).css("z-index","5");
-$("#drag-tw").animate({top: 96, left: 413}, { duration: 400, queue: false }).css("z-index","2");
-$("#drag-io").animate({top: 274, left: 60}, { duration: 400, queue: false }).css("z-index","8");
+// $("#drag-tj").animate({top: 399, left: 26}, { duration: 400, queue: false }).css("z-index","5");
+// $("#drag-tw").animate({top: 96, left: 413}, { duration: 400, queue: false }).css("z-index","2");
+$("#drag-hd").animate({top: 274, left: 60}, { duration: 400, queue: false }).css("z-index","8");
 $("#drag-id").animate({top: 77, left: 204}, { duration: 400, queue: false }).css("z-index","6");
-$("#drag-am").animate({top: 211, left: 18}, { duration: 400, queue: false }).css("z-index","9");
-$("#drag-hd").animate({top: 230, left: 468}, { duration: 400, queue: false }).css("z-index","3");
-$("#drag-gv").animate({top: 90, left:47}, { duration: 400, queue: false }).css("z-index","4");
-$("#drag-hz").animate({top: 386, left:123}, { duration: 400, queue: false }).css("z-index","11");
+//$("#drag-am").animate({top: 211, left: 18}, { duration: 400, queue: false }).css("z-index","9");
+$("#drag-bp").animate({top: 230, left: 468}, { duration: 400, queue: false }).css("z-index","3");
+//$("#drag-gv").animate({top: 90, left:47}, { duration: 400, queue: false }).css("z-index","4");
+//$("#drag-hz").animate({top: 386, left:123}, { duration: 400, queue: false }).css("z-index","11");
 //$("#drag-ww").animate({top: 260, left:200}, { duration: 400, queue: false }).css("z-index","1");
-$("#drag-gt").animate({top: 92, left:129}, { duration: 400, queue: false }).css("z-index","7");
-$("#drag-sp").animate({top: 402, left:286 }, { duration: 400, queue: false }).css("z-index","10");
-$("#drag-ff").animate({top: 334, left:428 }, { duration: 400, queue: false }).css("z-index","14");
+$("#drag-rc").animate({top: 92, left:129}, { duration: 400, queue: false }).css("z-index","7");
+$("#drag-hp").animate({top: 402, left:286 }, { duration: 400, queue: false }).css("z-index","10");
+//$("#drag-ff").animate({top: 334, left:428 }, { duration: 400, queue: false }).css("z-index","14");
 $("#drag-ub").animate({top: 399, left:469 }, { duration: 400, queue: false }).css("z-index","13");
-$("#drag-kb").animate({top: 242, left:273 }, { duration: 400, queue: false }).css("z-index","12");
+$("#drag-g2").animate({top: 242, left:273 }, { duration: 400, queue: false }).css("z-index","12");
 $("#drag-ia").animate({top: 204, left:357 }, { duration: 400, queue: false }).css("z-index","15");
 
 });
@@ -275,7 +292,7 @@ $("#drag-hd").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
 }, { duration: 400, queue: false });
-$("#drag-gt").animate({
+$("#drag-rc").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
 }, { duration: 400, queue: false });
@@ -295,11 +312,11 @@ $("#drag-gv").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
 }, { duration: 400, queue: false });
-$("#drag-sp").animate({
+$("#drag-hp").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
 }, { duration: 400, queue: false });
-$("#drag-io").animate({
+$("#drag-bp").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
 }, { duration: 400, queue: false });
@@ -307,7 +324,7 @@ $("#drag-ia").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
 }, { duration: 400, queue: false });
-$("#drag-kb").animate({
+$("#drag-g2").animate({
 top: Math.floor((Math.random()*310)+30),
 left: Math.floor((Math.random()*420)+260)
 }, { duration: 400, queue: false });
@@ -376,19 +393,19 @@ onStart: function () {$("#drag-hd").removeClass("dragshadow"); $("#drag-hd").rem
 onFinish: function () {$("#drag-hd").addClass("front-hd"); $("#drag-hd").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click', '#goback-sp', function(){
-ga('send', 'event', 'cardflip', 'Author');
-$("#drag-sp").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-sp><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Author</span><br><p class=prose><strong><a href=http://supplysidesocialmedia.com target=_blank class=aoncard>Supply Side Social Media</a></strong><br>Explores the economics of social media, proposing alternate ways to generate revenue.<i> Q4 2016</i><br><strong>The Post-PC World Survival Guide</strong><br>The book explores 50 years of computing, and how developments have changed the way services are designed and consumed. <i>Q3 2016</i>',
-onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("front-sp");},
-onFinish: function () {$("#drag-sp").addClass("back-sp");$("#drag-sp").addClass("dragshadow");
+$(document).on('click', '#goback-hp', function(){
+ga('send', 'event', 'cardflip', 'HobokenPress');
+$("#drag-hp").flippy({ direction:'LEFT', light:0,
+content:'<span id=gofront-hp><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Hoboken Press</span><br><p class=prose>After kicking off online publishing in 1994 and running with it for over 20 years, I finally decided I liked books after all. So I started a hyper-local publisher specializing in unique and local content.</p><p class="prose"><a href=http://hobokenpress.com class=cardlink target=_blank>HobokenPress.com</a></P>',
+onStart: function () {$("#drag-hp").removeClass("dragshadow"); $("#drag-hp").removeClass("front-hp");},
+onFinish: function () {$("#drag-hp").addClass("back-hp");$("#drag-hp").addClass("dragshadow");
 }
 }); }); });
 $(function() {
-$(document).on('click' ,'#gofront-sp', function(){
-$("#drag-sp").flippy({ direction:'LEFT', light:0, content:'<span id=goback-sp><img src=flip.png  hspace=4 vspace=4></span>',
-onStart: function () {$("#drag-sp").removeClass("dragshadow"); $("#drag-sp").removeClass("back-sp");},
-onFinish: function () {$("#drag-sp").addClass("front-sp"); $("#drag-sp").addClass("dragshadow");
+$(document).on('click' ,'#gofront-hp', function(){
+$("#drag-hp").flippy({ direction:'LEFT', light:0, content:'<span id=goback-hp><img src=flip.png  hspace=4 vspace=4></span>',
+onStart: function () {$("#drag-hp").removeClass("dragshadow"); $("#drag-hp").removeClass("back-hp");},
+onFinish: function () {$("#drag-hp").addClass("front-hp"); $("#drag-hp").addClass("dragshadow");
 }
 }); }); });
 $(function() {
@@ -413,24 +430,24 @@ onStart: function () {$("#drag-tw").removeClass("dragshadow"); $("#drag-tw").rem
 onFinish: function () {$("#drag-tw").addClass("front-tw"); $("#drag-tw").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click', '#goback-io', function(){
+$(document).on('click', '#goback-bp', function(){
 ga('send', 'event', 'cardflip', 'IntranetOffice');
-$("#drag-io").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-io><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>IntranetOffice</span><p class=prose><strong>CTO, Lead Architect, Evangelist</strong><br>I/O was a collaboration and communication platform I created in 1997, which eventually spawned a family of knowledge-management and CRM products for the Fortune 500. </p><p class=prose><strong>Dates</strong> 1997 - 2004<br><strong>Status</strong> Retired<br>',
-onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("front-io");},
-onFinish: function () {$("#drag-io").addClass("back-io");$("#drag-io").addClass("dragshadow");}
+$("#drag-bp").flippy({ direction:'LEFT', light:0,
+content:'<span id=gofront-bp><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>BoardPath</span><p class=prose><strong>Advisor, Evangelist</strong><br></p><p class="prose">BoardPath is a social business community designed around the very unique and specific needs of board members, from publically traded companies in the F50, all the way to small private nonprofit charities. <br><a href=http://boardpath.com class=cardlink target=_blank>BoardPath.com</a>',
+onStart: function () {$("#drag-bp").removeClass("dragshadow"); $("#drag-bp").removeClass("front-bp");},
+onFinish: function () {$("#drag-bp").addClass("back-bp");$("#drag-bp").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click' ,'#gomid-io', function(){
-$("#drag-io").flippy({ direction:'LEFT', light:0, content:'<span id=gofront-io><img src=flip.png hspace=4 vspace=4></span><span class=ttlspc>IntranetOffice</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-win.png><img src=sq-eng.png><img src=sq-data.png><img src=sq-ui.png><img src=sq-data.png><br><img src=sq-prod.png><img src=sq-startup.png></p>',
-onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("back-io");},
-onFinish: function () {$("#drag-io").addClass("back-io");$("#drag-io").addClass("dragshadow");}
+$(document).on('click' ,'#gomid-bp', function(){
+$("#drag-bp").flippy({ direction:'LEFT', light:0, content:'<span id=gofront-bp><img src=flip.png hspace=4 vspace=4></span><span class=ttlspc>BoardPath</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-win.png><img src=sq-eng.png><img src=sq-data.png><img src=sq-ui.png><img src=sq-data.png><br><img src=sq-prod.png><img src=sq-startup.png></p>',
+onStart: function () {$("#drag-bp").removeClass("dragshadow"); $("#drag-bp").removeClass("back-bp");},
+onFinish: function () {$("#drag-bp").addClass("back-bp");$("#drag-bp").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click' ,'#gofront-io', function(){
-$("#drag-io").flippy({ direction:'LEFT', light:0, color_target:'#d32700', content:'<span id=goback-io><img src=flip.png  hspace=4 vspace=4></span>',
-onStart: function () {$("#drag-io").removeClass("dragshadow"); $("#drag-io").removeClass("back-io");},
-onFinish: function () {$("#drag-io").addClass("front-io"); $("#drag-io").addClass("dragshadow");
+$(document).on('click' ,'#gofront-bp', function(){
+$("#drag-bp").flippy({ direction:'LEFT', light:0, color_target:'#d32700', content:'<span id=goback-bp><img src=flip.png  hspace=4 vspace=4></span>',
+onStart: function () {$("#drag-bp").removeClass("dragshadow"); $("#drag-bp").removeClass("back-bp");},
+onFinish: function () {$("#drag-bp").addClass("front-bp"); $("#drag-bp").addClass("dragshadow");
 }
 }); }); });
 $(function() {
@@ -474,7 +491,7 @@ $(function() {
 $(document).on('click', '#goback-ub', function(){
 ga('send', 'event', 'cardflip', 'fuxnux');
 $("#drag-ub").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-ub><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Fuxnux</span><p class=prose><strong>Cartoonist</strong><br>I always wanted to draw a cartoon strip, but could never focus enough on the art. Now the Internet has lowered the artistic bar so *impossibly* low, I think I can pull it off now. </span><p class=prose><strong>Dates</strong> 2016 sometime<br>',
+content:'<span id=gofront-ub><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Fuxnux</span><p class=prose><strong>Cartoonist</strong><br>I always wanted to draw a cartoon strip, but could never focus enough on the art. Now the Internet has lowered the artistic bar so *impossibly* low, I think I can pull it off now. </span><p class=prose><strong>Dates</strong> 2017 sometime<br>',
 onStart: function () {$("#drag-ub").removeClass("dragshadow"); $("#drag-ub").removeClass("front-ub");},
 onFinish: function () {$("#drag-ub").addClass("back-ub");$("#drag-ub").addClass("dragshadow");}
 }); }); });
@@ -515,25 +532,25 @@ onFinish: function () {$("#drag-ww").addClass("front-ww"); $("#drag-ww").addClas
 }
 }); }); });
 $(function() {
-$(document).on('click', '#goback-gt', function(){
+$(document).on('click', '#goback-rc', function(){
 ga('send', 'event', 'cardflip', 'rootcloud');
-$("#drag-gt").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-gt><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>root.cloud</span><p class=prose><strong>Designer</strong><br>This is a bedrock IoT play. Mega stealth. Stay tuned.  </span><p class=prose><strong>Dates</strong> 2016 - Current<br><strong>Status</strong> Design<br>',
-onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("front-gt");},
-onFinish: function () {$("#drag-gt").addClass("back-gt");$("#drag-gt").addClass("dragshadow");}
+$("#drag-rc").flippy({ direction:'LEFT', light:0,
+content:'<span id=gofront-rc><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>root.cloud</span><p class=prose><strong>Lead Tinkerer</strong><br>This is my cloud lab, where I build things like toasters that write poetry or design cybernetic implants for Christmas trees. I even designed a font or two. Really mad science. Everyone is invited...fun stuff.  </span><p class=prose><a href=http://root.cloud class=cardlink target=_blank>root.cloud</a>',
+onStart: function () {$("#drag-rc").removeClass("dragshadow"); $("#drag-rc").removeClass("front-rc");},
+onFinish: function () {$("#drag-rc").addClass("back-rc");$("#drag-rc").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click', '#gomid-gt', function(){
-$("#drag-gt").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-gt><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>GorillaTeach</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-social.png><img src=sq-lamp.png><br><img src=sq-pub.png><img src=sq-lab.png></p>',
-onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("back-gt");;},
-onFinish: function () {$("#drag-gt").addClass("back-gt");$("#drag-gt").addClass("dragshadow");}
+$(document).on('click', '#gomid-rc', function(){
+$("#drag-rc").flippy({ direction:'LEFT', light:0,
+content:'<span id=gofront-rc><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>GorillaTeach</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-mobile.png><img src=sq-social.png><img src=sq-lamp.png><br><img src=sq-pub.png><img src=sq-lab.png></p>',
+onStart: function () {$("#drag-rc").removeClass("dragshadow"); $("#drag-rc").removeClass("back-rc");;},
+onFinish: function () {$("#drag-rc").addClass("back-rc");$("#drag-rc").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click' ,'#gofront-gt', function(){
-$("#drag-gt").flippy({ direction:'LEFT', light:0, content:'<span id=goback-gt><img src=flip.png  hspace=4 vspace=4></span>',
-onStart: function () {$("#drag-gt").removeClass("dragshadow"); $("#drag-gt").removeClass("back-gt");},
-onFinish: function () {$("#drag-gt").addClass("front-gt"); $("#drag-gt").addClass("dragshadow");
+$(document).on('click' ,'#gofront-rc', function(){
+$("#drag-rc").flippy({ direction:'LEFT', light:0, content:'<span id=goback-rc><img src=flip.png  hspace=4 vspace=4></span>',
+onStart: function () {$("#drag-rc").removeClass("dragshadow"); $("#drag-rc").removeClass("back-rc");},
+onFinish: function () {$("#drag-rc").addClass("front-rc"); $("#drag-rc").addClass("dragshadow");
 }
 }); }); });
 $(function() {
@@ -581,32 +598,32 @@ onFinish: function () {$("#drag-tj").addClass("front-tj"); $("#drag-tj").addClas
 }
 }); }); });
 $(function() {
-$(document).on('click', '#goback-kb', function(){
+$(document).on('click', '#goback-g2', function(){
 ga('send', 'event', 'cardflip', 'Klipbrd');
-$("#drag-kb").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-kb><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>klipbrd.com</span><p class=prose><strong>Advisor</strong><br>Klipbrd is a tablet-based point-of-sale sign-in service available for a number of vertical markets.</span><p class=prose><strong>Dates</strong> 2014<br><strong>Status</strong> Active<br>',
-onStart: function () {$("#drag-kb").removeClass("dragshadow"); $("#drag-kb").removeClass("front-kb");},
-onFinish: function () {$("#drag-kb").addClass("back-kb");$("#drag-kb").addClass("dragshadow");}
+$("#drag-g2").flippy({ direction:'LEFT', light:0,
+content:'<span id=gofront-g2><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>General Virtual</span><p class=prose><strong>Advisor</strong><br>The spiritual successor to IdeaDev, GV provides deep experience with trending technologies. Today that means IoT, chatbots, AI, high-availability infra, really big data, and apps that work for anyone, anywhere, anytime, on any device. Plus old-school stuff, if that is what you want...</span><p class=prose><a href=http://www.generalvirtual.com class=cardlink target=_blank>generalvirtual.com</a>',
+onStart: function () {$("#drag-g2").removeClass("dragshadow"); $("#drag-g2").removeClass("front-g2");},
+onFinish: function () {$("#drag-g2").addClass("back-g2");$("#drag-g2").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click', '#gomid-kb', function(){
-$("#drag-kb").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-kb><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Trincoll Journal</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><img src=sq-pub.png></p>',
-onStart: function () {$("#drag-kb").removeClass("dragshadow"); $("#drag-kb").removeClass("back-kb");;},
-onFinish: function () {$("#drag-kb").addClass("back-kb");$("#drag-kb").addClass("dragshadow");}
+$(document).on('click', '#gomid-g2', function(){
+$("#drag-g2").flippy({ direction:'LEFT', light:0,
+content:'<span id=gofront-g2><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>Trincoll Journal</span><p class=prose><span class=invl><strong>Involvement</strong></span><img src=sq-lamp.png><img src=sq-eng.png><br><img src=sq-ui.png><img src=sq-data.png><img src=sq-prod.png><img src=sq-pub.png></p>',
+onStart: function () {$("#drag-g2").removeClass("dragshadow"); $("#drag-g2").removeClass("back-g2");;},
+onFinish: function () {$("#drag-g2").addClass("back-g2");$("#drag-g2").addClass("dragshadow");}
 }); }); });
 $(function() {
-$(document).on('click' ,'#gofront-kb', function(){
-$("#drag-kb").flippy({ direction:'LEFT', light:0, content:'<span id=goback-kb><img src=flip.png  hspace=4 vspace=4></span>',
-onStart: function () {$("#drag-kb").removeClass("dragshadow"); $("#drag-kb").removeClass("back-kb");},
-onFinish: function () {$("#drag-kb").addClass("front-kb"); $("#drag-kb").addClass("dragshadow");
+$(document).on('click' ,'#gofront-g2', function(){
+$("#drag-g2").flippy({ direction:'LEFT', light:0, content:'<span id=goback-g2><img src=flip.png  hspace=4 vspace=4></span>',
+onStart: function () {$("#drag-g2").removeClass("dragshadow"); $("#drag-g2").removeClass("back-g2");},
+onFinish: function () {$("#drag-g2").addClass("front-g2"); $("#drag-g2").addClass("dragshadow");
 }
 }); }); });
 $(function() {
 $(document).on('click', '#goback-ia', function(){
 ga('send', 'event', 'cardflip', 'iasqu');
 $("#drag-ia").flippy({ direction:'LEFT', light:0,
-content:'<span id=gofront-ia><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>iasqu</span><p class=prose><strong>Advisor</strong><br>Publish smart questions that work on any technology, live, from phones to TVs. Available as an app, site, service and API.</span><p class=prose><strong>Dates</strong> 2014<br><strong>Status</strong> Active<br><a href=http://www.iasqu.com class=cardlink target=_blank>www.iasqu.com</a>',
+content:'<span id=gofront-ia><img src=flipx.png hspace=4 vspace=4></span><span class=ttlspc>iasqu</span><p class=prose><strong>Advisor</strong><br>Publish smart questions that work on any technology, live, from phones to TVs -- with live feedback and analysis baked into the widget. Available for brands, content creators, publishers and app designers as a high-capacity, low-lag service.</span><p class=prose><a href=http://www.iasqu.com class=cardlink target=_blank>www.iasqu.com</a></p>',
 onStart: function () {$("#drag-ia").removeClass("dragshadow"); $("#drag-ia").removeClass("front-ia");},
 onFinish: function () {$("#drag-ia").addClass("back-ia");$("#drag-ia").addClass("dragshadow");}
 }); }); });
