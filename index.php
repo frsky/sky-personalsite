@@ -20,7 +20,7 @@ else window.addEventListener('load', cb);
 <link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <link rel="icon" type="image/png" href="ficon16.png" sizes="16x16"><link rel="icon" type="image/png" href="ficon32.png" sizes="32x32">
 <script type="text/javascript">
   WebFontConfig = {
-    google: { families: [ 'Lato:400,700,300:latin','Open+Sans:300,400,600,700:latin' ] }
+    google: { families: [ 'Roboto:400,700,300:latin','Open+Sans:300,400,600,700:latin','Oswald:400,600:latin' ] }
   };
   (function() {
     var wf = document.createElement('script');
@@ -42,15 +42,15 @@ else window.addEventListener('load', cb);
 </script>
 <!--[if IE]><script src="jquery/js/excanvas.js"></script><![endif]-->
 <style>
-body,html{min-height:100%;height:100%}#itis,.bigbox,.topbutton,.topribbon{position:absolute}#drop-menu li a,#drop-menu li a hover,.cardlink{text-decoration:none}body{background:url(bg.jpg) center center no-repeat fixed #222;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;font-family:'Lato','Open Sans','Lucida Grande',Helvetica,Arial}strong{font-weight:700}
+body,html{min-height:100%;height:100%}#itis,.bigbox,.topbutton,.topribbon{position:absolute}#drop-menu li a,#drop-menu li a hover,.cardlink{text-decoration:none}body{background:url(bg.jpg) center center no-repeat fixed #222;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;font-family:'Roboto','Open Sans','Lucida Grande',Helvetica,Arial}strong{font-weight:700}
 .medstrong{font-weight:600}p{margin:0;padding:5px}
 .bigbox{display:block;top:0;left:0;width:100%;height:100%;margin:0}
 .divact1,.divact2,.divact3,.divact4{width:100px;float:left;text-align:center}
 .menuitem{font-size:14px}
 .aoncard,.aoncard a:link,.aoncard a:visited{color:#111!important;text-decoration:none}
 .aoncard a:hover{color:#444!important}
-.topribbon{padding:14px;color:#FFF;border:0;height:57px;font-family:'Lato','Open Sans',Lucida Grande,Helvetica;font-size:10pt;text-align:center}
-.bodyprose,.ui-widget-content{font-family:'Lato','Open Sans',Lucida Grande,Helvetica,sans-serif}
+.topribbon{padding:14px;color:#FFF;border:0;height:57px;font-family:'Roboto','Open Sans',Lucida Grande,Helvetica;font-size:10pt;text-align:center}
+.bodyprose,.ui-widget-content{font-family:'Roboto','Open Sans',Lucida Grande,Helvetica,sans-serif}
 .divinnerbox{-moz-border-radius:8px;-webkit-border-radius:8px;-khtml-border-radius:8px;border-radius:8px}
 .ui-dialog{border:0;-moz-box-shadow:1px 1px 6px 2px #222;-webkit-box-shadow:1px 1px 6px 2px #222;box-shadow:1px 1px 6px 2px #222}
 .dragshadow{border:0;-moz-box-shadow:1px 1px 6px 2px #222;-webkit-box-shadow:1px 1px 6px 2px #222;box-shadow:1px 1px 6px 2px #222;-webkit-appearance:none;border-radius:1px}
