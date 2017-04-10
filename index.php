@@ -67,7 +67,7 @@ body,html{min-height:100%;height:100%}#itis,.bigbox,.topbutton,.topribbon{positi
 .is_x{height:32px;vertical-align:top;padding-top:4px}
 .boxprose{font-size:10pt;color:#EEE;margin:2px 10px 8px}
 .prose{font-size:8pt;color:#333;font-weight:400;margin:2px 10px}
-.lighterprose{color:#AAA} 
+.lighterprose{color:#AAA}   
 .dragbase{font-family:'Open Sans',Lucida Grande,Helvetica,Arial,sans-serif;font-size:10pt}
 .cardlink{-moz-box-shadow:inset 0 1px 3px 0 #d1d1d1;-webkit-box-shadow:inset 0 1px 3px 0 #d1d1d1;box-shadow:inset 0 1px 3px 0 #d1d1d1;background:-webkit-gradient(linear,left top,left bottom,color-stop(.05,#e6e6e6),color-stop(1,#d1cdd1));background:-moz-linear-gradient(top,#e6e6e6 5%,#d1cdd1 100%);background:-webkit-linear-gradient(top,#e6e6e6 5%,#d1cdd1 100%);background:-o-linear-gradient(top,#e6e6e6 5%,#d1cdd1 100%);background:-ms-linear-gradient(top,#e6e6e6 5%,#d1cdd1 100%);background:linear-gradient(to bottom,#e6e6e6 5%,#d1cdd1 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6e6e6', endColorstr='#d1cdd1', GradientType=0);background-color:#e6e6e6;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;border:2px solid #B9B5B5;display:inline-block;cursor:pointer;margin-top:4px;color:#303030!important;font-family:arial;font-size:11px;font-weight:700;padding:2px;width:190px;text-align:center}
 .topbutton{top:0;left:825px;height:55px;width:110px;float:right;font-size:8pt;text-align:center;padding-left:8px;padding-right:18px}
